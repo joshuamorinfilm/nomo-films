@@ -1,1 +1,0 @@
-c:\ffmpeg -i  trailer.mp4 -c:v libtheora -q:v 7 -c:a libvorbis -q:a 4  trailer.ogv

@@ -79,6 +79,11 @@ section {
 section.success {
   color: white;
   background: #18BC9C; }
+
+section.logos {
+  color: white;
+  background: #18BC9C; }
+  
   
 .modal-content {
 	background: #333 !important; }
@@ -94,6 +99,7 @@ section.success {
 .logos img {
 	padding-left: 10px;
 	align: bottom;
+	
 }
   
 @media (max-width: 767px) {

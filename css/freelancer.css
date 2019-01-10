@@ -105,6 +105,11 @@ section.logos {
 }
   
 @media (max-width: 767px) {
+
+.logos {
+	display:none;
+}
+
 	header.masthead {
 	header.masthead .intro-text .name {
       font-size: 4.75em; }
@@ -274,10 +279,6 @@ header.masthead {
 
 @media (min-width: 767px) {
  
-.logos {
-	display:none;
-}
-
  #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
     margin: 0 0 30px; } }
 

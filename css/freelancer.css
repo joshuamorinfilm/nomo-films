@@ -81,6 +81,8 @@ section.success {
   background: #18BC9C; }
 
 section.logos {
+  padding-top: 10em;
+  padding-bottom: 10em;
   color: white;
   background: black; }
   

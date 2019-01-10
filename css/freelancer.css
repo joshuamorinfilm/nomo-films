@@ -83,8 +83,8 @@ section.success {
 section.logos {
   padding-top: 10em;
   padding-bottom: 10em;
-  color: white;
-  background: black; }
+  color: black;
+  background: #D3D3D3; }
   
   
 .modal-content {

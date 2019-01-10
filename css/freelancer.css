@@ -93,6 +93,7 @@ section.success {
 
 .logos img {
 	padding-left: 10px;
+	align: bottom;
 }
   
 @media (max-width: 767px) {

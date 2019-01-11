@@ -110,12 +110,14 @@ section.logos {
 	}
 }	  
 
+  @media (orientation: portrait) and (max-width: 767px) {
+	.logos {
+		display:none;
+	}
+}	  
   
 @media (max-width: 767px) {
 
-.logos {
-	display:none;
-}
 
 	header.masthead {
 	header.masthead .intro-text .name {

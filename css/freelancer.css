@@ -15,6 +15,9 @@ p {
 p.small {
   font-size: 16px; }
 
+p.large {
+  font-size: 30px; }
+
 a,
 a.active,
 a:active,

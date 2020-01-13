@@ -198,7 +198,7 @@ section.logos {
 	   height: 100%; 
 	} 
 	.headshot {
-		height: 30%;
+		height: 150px;
 	} }
 
 @media (min-width: 992px) {

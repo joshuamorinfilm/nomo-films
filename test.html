@@ -23,6 +23,7 @@
 		
 		<!-- Custom styles for this template -->
 		<link href="css/full-slider.css" rel="stylesheet">
+		<link href="css/vi-lazyload.min.css" rel="stylesheet">
 
 	  </head>
 
@@ -42,10 +43,10 @@
 				  <a class="nav-link js-scroll-trigger" href="ourwork.html">OUR WORK</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger" href="#about">About</a>
+				  <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+				  <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
 				</li>
 			  </ul>
 			</div>
@@ -53,9 +54,12 @@
 		</nav>
 
 		<header class="masthead">
-			<div class='embed-container'><iframe src='https://player.vimeo.com/video/372946050?autoplay=1&loop=1&background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+			<div class='embed-container'><iframe src='https://player.vimeo.com/video/372946050?autoplay=1&loop=1&background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen 
+			allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 		</header>
 
+		
+		<div class="vi-lazyload" data-id="372946050" data-thumb="3"></div>
 			
 		
 		<!-- Footer -->
@@ -127,6 +131,10 @@
 		<!-- Custom scripts for this template -->
 		<script src="js/freelancer.js"></script>
 
+		<!-- Vimeo lazy loader -->
+		<script src="vi-lazyload.min.js">
+
+		
 	  </body>
 
 	</html>

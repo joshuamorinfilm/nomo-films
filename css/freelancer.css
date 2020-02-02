@@ -118,8 +118,14 @@ section.logos {
 		display:none;
 	}
 }	  
+    
+@media (max-width: 991px) {
+  	.headshot {
+		height: 120px;
+}}
   
 @media (max-width: 767px) {
+	
 
 
 	header.masthead {
@@ -130,10 +136,7 @@ section.logos {
   section {
     padding: 25px 0; }
   section.first {
-    padding-top: 75px; } 
-	.headshot {
-		height: 120px;
-	} }
+    padding-top: 75px; }  }
 
 .scroll-top {
   position: fixed;

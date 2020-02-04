@@ -32,7 +32,7 @@
     z-index:1;
     background-image:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 8'%3E%3Crect fill='rgba(0,0,0,.65)' width='13' height='8' rx='1' ry='1'/%3E%3Cpolygon fill='%23fff' points='5 6 9 4 5 2'/%3E%3C/svg%3E");
     background-position:50%;
-    background-size:calc(35px + 2%) auto;
+    background-size:calc(35px + 0%) auto;
     background-repeat:no-repeat;
 }
 

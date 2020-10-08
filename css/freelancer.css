@@ -83,6 +83,12 @@ section.success {
   color: white;
   background: #18BC9C; }
 
+section.whatwedo {
+  padding-top: 2em;
+  padding-bottom: 2;
+  color: black;
+  background: #D3D3D3; }
+
 section.logos {
   padding-top: 2em;
   padding-bottom: 2;

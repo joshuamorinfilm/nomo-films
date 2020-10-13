@@ -46,8 +46,8 @@
             var vi_container = this.parentElement,
                 vi_iframe    = document.createElement('iframe');
                 
-                vi_iframe.src = 'https://player.vimeo.com/video/' + vi_container.dataset.id + '?autoplay=0&autopause=0&loop=0';
-                vi_iframe.setAttribute('allow','fullscreen');
+                vi_iframe.src = 'https://player.vimeo.com/video/' + vi_container.dataset.id + '?autoplay=1&autopause=0&loop=0';
+                vi_iframe.setAttribute('allow','autoplay;fullscreen');
                 vi_iframe.setAttribute('allowfullscreen','');
                 vi_container.appendChild(vi_iframe);
         });

@@ -27,14 +27,12 @@ a:hover {
   outline: none; }
   
   
-  .fa-stack:hover {
-  background: #fff;
-  border-color:#000;
-}
-
-.fa-stack:hover .fa-times {
-  color: red;
-}
+  
+ .fa-youtube:hover {
+	 color: #006b33;
+ }
+  
+  
 
 h1,
 h2,

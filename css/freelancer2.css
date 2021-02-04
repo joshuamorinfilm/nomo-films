@@ -142,9 +142,7 @@ section.logos {
   section.first {
     padding-top: 75px; }  
 
-	.social	{
-		display: none;
-	}
+	
 
 
 }
@@ -344,7 +342,11 @@ header.masthead {
 @media (min-width: 767px) {
  
  #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
-    margin: 0 0 30px; } }
+    margin: 0 0 30px; } 
+	
+	.social	{
+		display: none;
+	} }
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;

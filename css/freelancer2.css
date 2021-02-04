@@ -26,13 +26,10 @@ a:hover {
   color: #18BC9C;
   outline: none; }
   
-  
-  
-  
-  .fa-circle {
-    color: white;
-}
-  
+ .fa-youtube:hover{
+	    color:red !important;
+	 
+ }
 
 h1,
 h2,

@@ -142,12 +142,7 @@ section.logos {
   section {
     padding: 25px 0; }
   section.first {
-    padding-top: 75px; }  
-
-	
-
-
-}
+    padding-top: 75px; }  }
 
 .scroll-top {
   position: fixed;
@@ -173,7 +168,7 @@ section.logos {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: transparent; }
+  background: white; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {

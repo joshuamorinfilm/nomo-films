@@ -25,6 +25,16 @@ a:focus,
 a:hover {
   color: #18BC9C;
   outline: none; }
+  
+  
+  .fa-stack:hover {
+  background: #fff;
+  border-color:#000;
+}
+
+.fa-stack:hover .fa-times {
+  color: red;
+}
 
 h1,
 h2,

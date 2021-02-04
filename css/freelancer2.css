@@ -99,7 +99,9 @@ section.logos {
 .modal-content {
 	background: #333 !important; }
   
-  
+ .text-black { color: 000; 
+ }
+ 
 @font-face {
     font-family: 'Chokle';
     src: url('../fonts/Chokle.otf');

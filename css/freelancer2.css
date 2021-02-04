@@ -128,9 +128,11 @@ section.logos {
 }	  
    
   
-@media (max-width: 767px) {
+@media (max-width: 990px) {
 	
-
+	.social	{
+		display: none;
+	}
 
 	header.masthead {
 	header.masthead .intro-text .name {
@@ -343,10 +345,7 @@ header.masthead {
  
  #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
     margin: 0 0 30px; } 
-	
-	.social	{
-		display: none;
-	} }
+	}
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;

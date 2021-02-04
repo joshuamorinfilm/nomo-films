@@ -192,15 +192,14 @@ section.logos {
     font-size: 14px;
     padding: 11px;
     text-transform: uppercase;
-    color: white;
-    border-color: white; }
+    color: #2C3E50;
+    border-color: #2C3E50; }
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-      color: white;
+      color: #2C3E50;
       border-color: #18BC9C;
       background-color: #18BC9C; } 
-	  
-	  
-	  	.embed-container { 
+	    
+	.embed-container { 
 		position: relative; 
 		padding-bottom: 56.25%; 
 		height: 0; overflow: hidden; 

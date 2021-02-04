@@ -126,11 +126,7 @@ section.logos {
 		display:none;
 	}
 }	  
-    
-@media (max-width: 991px) {
-  	.headshot {
-		height: 120px;
-}}
+   
   
 @media (max-width: 767px) {
 	
@@ -144,7 +140,14 @@ section.logos {
   section {
     padding: 25px 0; }
   section.first {
-    padding-top: 75px; }  }
+    padding-top: 75px; }  
+
+	.social	{
+		display: none;
+	}
+
+
+}
 
 .scroll-top {
   position: fixed;

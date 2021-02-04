@@ -166,7 +166,7 @@ section.logos {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: rgb(0 0 0 / 0%); }
+  background: transparent; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -178,7 +178,7 @@ section.logos {
   #mainNav .navbar-nav {	
     letter-spacing: 1px; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: white; }
+      color: #2C3E50; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
         color: #18BC9C;
         outline: none; }

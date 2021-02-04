@@ -166,7 +166,7 @@ section.logos {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: transparent; }
+  background: rgb(0 0 0 / 0%); }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {

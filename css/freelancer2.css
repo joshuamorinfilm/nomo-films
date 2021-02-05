@@ -620,7 +620,7 @@ footer {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 4vw;
+    top: 25vw;
     right: 4vw;
     bottom: 4vw;
     left: 4vw;
@@ -629,6 +629,15 @@ footer {
     height: calc(100% - 8vw);
     pointer-events: none;
 }
+
+.index-item-title-text {
+	font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .11em;
+    text-transform: none;
+	line-height: .9em; 
+	}
 
 
 /*	width="640" height="360"*/1

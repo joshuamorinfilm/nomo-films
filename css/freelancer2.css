@@ -600,7 +600,7 @@ footer {
     border:0;
 	
 	
-.title {
+.title div{
 	position: absolute;
     top: 0;
     right: 0;

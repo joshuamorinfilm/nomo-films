@@ -600,19 +600,6 @@ footer {
     border:0;
 }
 	
-.title {
-	position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    background-position: 50%;
-    background-size: calc(35px + 2%) auto;
-    background-repeat: no-repeat;
-	color:white;
-}
-
 .index-item-title-alignment-bottom-left.full-bleed-index.site-outer-padding-extra-small .index-item-text-wrapper {
     bottom: 1.5vw;
     left: 1.5vw;

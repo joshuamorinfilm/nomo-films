@@ -30,12 +30,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 		<!-- Custom styles for this template -->
-		<link href="css/freelancer2.css" rel="stylesheet">
+		<link href="css/freelancer.css" rel="stylesheet">
 		
 		<!-- Custom styles for this template -->
 		<link href="css/full-slider.css" rel="stylesheet">
 		<link href="css/vi-lazyload.css" rel="stylesheet">
-
+		
 	  </head>
 
 	  <body id="page-top">
@@ -51,51 +51,63 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 			  <ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger" href="/work.html">Commercial</a>
-				</li>
-				<li class="nav-item">
-				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger" href="/shortfilms.html">Short Films</a>
-				</li>
-				<li class="nav-item">
 				  <a class="nav-link js-scroll-trigger" href="about.html">About</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger" href="contact.html">Contact Us</a>
+				  <a class="nav-link js-scroll-trigger" href="shortfilms">Short Films</a>
 				</li>
 			  </ul>
-			<ul class="social">
-				<li class="list-inline-item">
-				  <a class="btn-social" target="_blank" href="http://youtube.com/nomofilms">
-				  <i class="fa fa-fw text-black fa-youtube"></i>
-				  </a>
-				</li>
-				<li class="list-inline-item">
-				  <a class="btn-social" target="_blank" href="http://instagram.com/nomofilms">
-					<i class="fa fa-fw text-black fa-instagram"></i>
-				  </a>
-				</li>
-				<li class="list-inline-item">
-				  <a class="btn-social" target="_blank" href="http://facebook.com/gonomofilms">
-					<i class="fa fa-fw text-black fa-facebook"></i>
-				  </a>
-				</li>
-				<li class="list-inline-item">
-				  <a class="btn-social" target="_blank" href="https://www.linkedin.com/company/14028211">
-					<i class="fa fa-fw text-black fa-linkedin"></i>
-				  </a>
-				</li>
-			</ul>
 			</div>
 		  </div>
 		</nav>
-		<section class="bannervid" style="padding-top:80px !important;">
-			<iframe src='https://player.vimeo.com/video/508088512?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-		</section>
-		
 
+		<section style="padding-top:80px !important;">		
+			<div class="vi-lazyload" data-id="494872840" data-thumb=""></div>
+			<div class="vi-lazyload" data-id="364888920" data-thumb=""></div> 
+			<div class="vi-lazyload" data-id="420010925" data-thumb=""></div>
+			<div class="vi-lazyload" data-id="394276479" data-thumb=""></div>
+			<div class="vi-lazyload" data-id="496917001" data-thumb=""></div>
+			<div class="vi-lazyload" data-id="389251399" data-thumb=""></div>
+		</section>
+
+		
 		<!-- Footer -->
 		<footer class="text-center">
+		  <div class="footer-above">
+			<div class="container">
+			  <div class="row">
+				<div class="footer-col col-md-4">
+				</div>
+				<div class="footer-col col-md-4">
+				  <h3>Social</h3>
+				  <ul class="list-inline">
+				  <li class="list-inline-item">
+					  <a class="btn-social btn-outline" target="_blank" href="http://youtube.com/nomofilms">
+						<i class="fa fa-fw fa-youtube"></i>
+					  </a>
+					</li>
+					<li class="list-inline-item">
+					  <a class="btn-social btn-outline" target="_blank" href="http://instagram.com/nomofilms">
+						<i class="fa fa-fw fa-instagram"></i>
+					  </a>
+					</li>
+					<li class="list-inline-item">
+					  <a class="btn-social btn-outline" target="_blank" href="http://facebook.com/gonomofilms">
+						<i class="fa fa-fw fa-facebook"></i>
+					  </a>
+                	</li>
+					<li class="list-inline-item">
+					  <a class="btn-social btn-outline" target="_blank" href="https://www.linkedin.com/company/14028211">
+						<i class="fa fa-fw fa-linkedin"></i>
+					  </a>
+                	</li>
+				  </ul>
+				</div>
+				<div class="footer-col col-md-4">
+				</div>
+			  </div>
+			</div>
+		  </div>
 		  <div class="footer-below">
 			<div class="container">
 			  <div class="row">

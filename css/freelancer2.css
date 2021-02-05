@@ -598,6 +598,19 @@ footer {
     left:0;
     z-index:3;
     border:0;
+	
+	
+.title {
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-position: 50%;
+    background-size: calc(35px + 2%) auto;
+    background-repeat: no-repeat;
+}
 
 
 /*	width="640" height="360"*/1

@@ -150,7 +150,21 @@ section.logos {
   section {
     padding: 25px 0; }
   section.first {
-    padding-top: 75px; }  }
+    padding-top: 75px; }  
+	.index-item-text-wrapper {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 30vw;
+		right: 4vw;
+		bottom: 4vw;
+		left: 4vw;
+		margin: auto;
+		width: calc(100% - 6vw);
+		height: calc(100% - 8vw);
+		pointer-events: none;
+	}	
+}
 
 .scroll-top {
   position: fixed;
@@ -268,6 +282,20 @@ section.logos {
 	.index-item-title-text {
 		font-size: 1em;
 	}
+	
+	.index-item-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25vw;
+    right: 4vw;
+    bottom: 4vw;
+    left: 4vw;
+    margin: auto;
+    width: calc(100% - 8vw);
+    height: calc(100% - 8vw);
+    pointer-events: none;
+}
 }
 
 header.masthead {
@@ -626,20 +654,6 @@ footer {
     -webkit-align-items: flex-start;
     align-items: flex-start;
 }
-.index-item-text-wrapper {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 25vw;
-    right: 4vw;
-    bottom: 4vw;
-    left: 4vw;
-    margin: auto;
-    width: calc(100% - 8vw);
-    height: calc(100% - 8vw);
-    pointer-events: none;
-}
-
 .index-item-title-text {
 	font-family: futura-pt;
     font-weight: 400;

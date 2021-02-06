@@ -148,6 +148,23 @@ section.logos {
 		pointer-events: none;
 	}	
 }  
+
+@media (min-width: 576px) {
+	.index-item-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25vw;
+    right: 4vw;
+    bottom: 4vw;
+    left: 4vw;
+    margin: auto;
+    width: calc(100% - 8vw);
+    height: calc(100% - 8vw);
+    pointer-events: none;
+	}
+}
+
 @media (max-width: 990px) {
 	.index-item-title-text {
 		font-size: .5em;
@@ -287,19 +304,6 @@ section.logos {
 		font-size: 1em;
 	}
 	
-	.index-item-text-wrapper {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 25vw;
-    right: 4vw;
-    bottom: 4vw;
-    left: 4vw;
-    margin: auto;
-    width: calc(100% - 8vw);
-    height: calc(100% - 8vw);
-    pointer-events: none;
-}
 }
 
 header.masthead {

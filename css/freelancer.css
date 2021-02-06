@@ -151,16 +151,17 @@ section.logos {
     padding: 25px 0; }
   section.first {
     padding-top: 75px; }  
+	
 	.index-item-text-wrapper {
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		top: 30vw;
+		top: 55vw;
 		right: 4vw;
 		bottom: 4vw;
-		left: 4vw;
+		left: 8vw;
 		margin: auto;
-		width: calc(100% - 6vw);
+		width: calc(100% - 4vw);
 		height: calc(100% - 8vw);
 		pointer-events: none;
 	}	

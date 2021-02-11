@@ -672,7 +672,7 @@ footer {
 	line-height: .9em; 
 	color:white;
 	}
-.lowersocial {
+ul.lowersocial {
 	padding: 0 !important;
 	margin: 0 !important;
 }

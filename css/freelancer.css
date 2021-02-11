@@ -25,6 +25,11 @@ a:focus,
 a:hover {
   color: #18BC9C;
   outline: none; }
+
+ul {
+	padding: 0 !important;
+	margin: 0 !important;
+}
   
 h1,
 h2,

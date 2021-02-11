@@ -26,9 +26,6 @@ a:hover {
   color: #18BC9C;
   outline: none; }
 
-ul {
-	padding: 0 !important;
-}
   
 h1,
 h2,
@@ -675,6 +672,7 @@ footer {
 	line-height: .9em; 
 	color:white;
 	}
-
-
-/*	width="640" height="360"*/1
+.lowersocial {
+	padding: 0 !important;
+	margin: 0 !important;
+}

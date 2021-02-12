@@ -626,6 +626,9 @@ footer {
 	color: white;
 }
 
+section.bannervid {
+	padding: 0 !important;
+} 
 .bannervid {
 	position: relative !important;
 	/* padding-bottom: 56.25%; */

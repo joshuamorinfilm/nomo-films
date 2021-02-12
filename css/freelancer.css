@@ -625,7 +625,7 @@ footer {
 
 .bannervid {
 	position: relative !important;
-	padding-bottom: 56.25%;
+	/* padding-bottom: 56.25%; */
 	/* height: 0; */
 	width:100%;
 	overflow: hidden;

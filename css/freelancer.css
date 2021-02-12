@@ -624,11 +624,12 @@ footer {
 }
 
 .bannervid {
-	position: relative;
+	position: relative !important;
 	padding-bottom: 56.25%;
-	height: 0;
+	/* height: 0; */
+	width:100%;
 	overflow: hidden;
-	max-width: 100%;
+	/* max-width: 100%; */
 	/* padding-top: 0 !important; */
 }
 

@@ -99,7 +99,10 @@ section.logos {
   padding-bottom: 2;
   color: black;
   background: #D3D3D3; }
-  
+
+section.tagline {
+	padding: 85px 0 0 0 !important;
+}  
   
 .modal-content {
 	background: #333 !important; }

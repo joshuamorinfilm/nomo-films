@@ -319,6 +319,11 @@ section.tagline {
 		font-size:1.5em;
 		line-height:1em
 	}
+	.tagline2 {
+		font-family:Grto,sans-serif;
+		font-size:1.5em;
+		line-height:1em
+	}
 
 }
 
@@ -696,3 +701,6 @@ ul.lowersocial {
 	padding: 0 !important;
 	margin: 0 !important;
 }
+
+.navbar-collapse {
+	flex-basis: 0 !important; }

@@ -118,7 +118,7 @@ section.tagline {
 }  
 @font-face {
     font-family: 'Grto';
-    src: url('../fonts/g-regular.eot');
+    src: url('../fonts/g-regular.woff');
     font-weight: normal;
     font-style: normal;
 }  

@@ -116,6 +116,12 @@ section.tagline {
     font-weight: normal;
     font-style: normal;
 }  
+@font-face {
+    font-family: 'Grto';
+    src: url('../fonts/g-regular.eot');
+    font-weight: normal;
+    font-style: normal;
+}  
 
 .logos img {
 	padding-left: 10px;

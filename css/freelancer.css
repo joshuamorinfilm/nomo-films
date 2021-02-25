@@ -179,8 +179,6 @@ section.tagline {
 	.index-item-title-text {
 		font-size: .5em;
 	}
-	
-	
 	.social	{
 		display: none;
 	}
@@ -194,6 +192,14 @@ section.tagline {
     padding: 25px 0; }
   section.first {
     padding-top: 75px; }  
+	
+	.tagline {
+		text-align:center !important; 
+		font-family:Grto,sans-serif;
+		font-size:1em;
+		line-height:.8em"
+	}
+
 
 }
 
@@ -307,7 +313,13 @@ section.tagline {
 	.index-item-title-text {
 		font-size: 1em;
 	}
-	
+	.tagline {
+		text-align:center !important; 
+		font-family:Grto,sans-serif;
+		font-size:2em;
+		line-height:1em
+	}
+
 }
 
 header.masthead {

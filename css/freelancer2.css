@@ -25,6 +25,7 @@ a:focus,
 a:hover {
   color: #18BC9C;
   outline: none; }
+
   
 h1,
 h2,
@@ -32,9 +33,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 200;
-  text-transform: uppercase; }
+font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .11em;
+    text-transform: none;
+	line-height: .9em; 
+	color:black; }
 
 hr.star-light,
 hr.star-primary {
@@ -94,7 +99,10 @@ section.logos {
   padding-bottom: 2;
   color: black;
   background: #D3D3D3; }
-  
+
+section.tagline {
+	padding: 85px 0 0 0 !important;
+}  
   
 .modal-content {
 	background: #333 !important; }
@@ -105,6 +113,12 @@ section.logos {
 @font-face {
     font-family: 'Chokle';
     src: url('../fonts/Chokle.otf');
+    font-weight: normal;
+    font-style: normal;
+}  
+@font-face {
+    font-family: 'Grto';
+    src: url('../fonts/g-bold.woff');
     font-weight: normal;
     font-style: normal;
 }  
@@ -127,13 +141,62 @@ section.logos {
 	}
 }	  
    
-  
+   
+@media (max-width: 575px) {
+   
+  	.index-item-text-wrapper {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 55vw;
+		right: 4vw;
+		bottom: 4vw;
+		left: 8vw;
+		margin: auto;
+		width: calc(100% - 4vw);
+		height: calc(100% - 8vw);
+		pointer-events: none;
+	}	
+	
+	.tagline {
+		text-align:center !important; 
+		font-family:Grto,sans-serif;
+		font-size:1.5em;
+		line-height:1em
+	}
+	.bannervid {
+		margin-top:95px; }
+}  
+
+@media (min-width: 576px) {
+	.index-item-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25vw;
+    right: 4vw;
+    bottom: 4vw;
+    left: 4vw;
+    margin: auto;
+    width: calc(100% - 8vw);
+    height: calc(100% - 8vw);
+    pointer-events: none;
+	}
+	
+	.tagline {
+		text-align:center !important; 
+		font-family:Grto,sans-serif;
+		font-size:1.5em;
+		line-height:1em
+	}
+	.bannervid {
+		margin-top:95px; }
+}
+
 @media (max-width: 990px) {
 	.index-item-title-text {
 		font-size: .5em;
 	}
-	
-	
 	.social	{
 		display: none;
 	}
@@ -143,80 +206,13 @@ section.logos {
       font-size: 4.75em; }
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
-  section {
-    padding: 25px 0; }
-  section.first {
-    padding-top: 75px; }  }
+	section {
+		padding: 25px 0; }
+	section.first {
+		padding-top: 75px; }  
+}	
 
-.scroll-top {
-  position: fixed;
-  z-index: 1049;
-  right: 2%;
-  bottom: 2%;
-  width: 50px;
-  height: 50px; }
-  .scroll-top .btn {
-    font-size: 16px;
-    line-height: 28px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 100%; }
-    .scroll-top .btn:focus {
-      outline: none; }
-
-
-
-#mainNav {
-  font-family: 'Chokle';
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  background: white; }
-  #mainNav a:focus {
-    outline: none; }
-  #mainNav .navbar-brand {
-    font-family: 'Chokle';
-	font-size: 2em;
-    color: #2C3E50; }
-    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: black; }
-  #mainNav .navbar-nav {	
-    letter-spacing: 1px; }
-    #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: #2C3E50; }
-      #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #18BC9C;
-        outline: none; }
-      #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-        color: white; }
-  #mainNav .navbar-toggler {
-    font-size: 14px;
-    padding: 11px;
-    text-transform: uppercase;
-    color: #2C3E50;
-    border-color: #2C3E50; }
-    #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-      color: #2C3E50;
-      border-color: #18BC9C;
-      background-color: #18BC9C; } 
-	    
-	.embed-container { 
-		position: relative; 
-		padding-bottom: 56.25%; 
-		height: 0; overflow: hidden; 
-		max-width: 100%; height: auto; 
-	} 
-	.embed-container iframe, .embed-container object, .embed-container embed { 
-	   position: absolute; 
-	   top: 0; 
-	   left: 0; 
-	   width: 100%; 
-	   height: 100%; 
-	} 
-	
-
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -240,12 +236,6 @@ section.logos {
     padding-bottom: 10px; }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 2.5em; } 
-	  
-	.vimeosettings {
-	width: 640px;
-	height: 480px;
-	} 
-
 
 	.embed-container { 
 		position: relative; 
@@ -264,7 +254,19 @@ section.logos {
 	.index-item-title-text {
 		font-size: 1em;
 	}
+
 }
+
+@media (min-width: 768px) {
+  /* header.masthead { */
+    /* padding-top: 110px; */
+    /* padding-bottom: 100px; } */
+    header.masthead .intro-text .name {
+      font-size: 4.75em; }
+    header.masthead .intro-text .skills {
+      font-size: 1.75em; } }
+
+
 
 header.masthead {
   padding-top: 22px;
@@ -291,19 +293,73 @@ header.masthead {
     -o-background-size: cover;
     background-size: cover; }
             
-@media (min-width: 768px) {
-  /* header.masthead { */
-    /* padding-top: 110px; */
-    /* padding-bottom: 100px; } */
-    header.masthead .intro-text .name {
-      font-size: 4.75em; }
-    header.masthead .intro-text .skills {
-      font-size: 1.75em; } }
+  
 
-}
-	  
-	  
-	  
+.scroll-top {
+  position: fixed;
+  z-index: 1049;
+  right: 2%;
+  bottom: 2%;
+  width: 50px;
+  height: 50px; }
+  .scroll-top .btn {
+    font-size: 16px;
+    line-height: 28px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%; }
+    .scroll-top .btn:focus {
+      outline: none; }
+
+#mainNav {
+  font-family: 'Chokle';
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  background: white; }
+#mainNav a:focus {
+outline: none; }
+#mainNav .navbar-brand {
+	font-family: 'Chokle';
+	font-size: 2em;
+	color: #2C3E50; }
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+	color: black; }
+#mainNav .navbar-nav {	
+	letter-spacing: 1px; }
+#mainNav .navbar-nav li.nav-item a.nav-link {
+	color: #2C3E50; }
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+	color: #18BC9C;
+	outline: none; }
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+	color: #18BC9C; }
+#mainNav .navbar-toggler {
+	font-size: 14px;
+	padding: 11px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	border-color: #2C3E50; }
+#mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
+	color: #2C3E50;
+	border-color: #18BC9C;
+	background-color: #18BC9C; } 
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; overflow: hidden; 
+	max-width: 100%; height: auto; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+} 	  
+
 #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
@@ -588,12 +644,17 @@ footer {
 	color: white;
 }
 
+section.bannervid {
+	padding: 0 !important;
+} 
 .bannervid {
-	position: relative;
-	padding-bottom: 56.25%;
-	height: 0;
+	position: relative !important;
+	/* padding-bottom: 56.25%; */
+	/* height: 0; */
+	width:100%;
 	overflow: hidden;
-	max-width: 100%;
+	/* max-width: 100%; */
+	/* padding-top: 0 !important; */
 }
 
 .bannervid iframe{
@@ -622,20 +683,6 @@ footer {
     -webkit-align-items: flex-start;
     align-items: flex-start;
 }
-.index-item-text-wrapper {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 25vw;
-    right: 4vw;
-    bottom: 4vw;
-    left: 4vw;
-    margin: auto;
-    width: calc(100% - 8vw);
-    height: calc(100% - 8vw);
-    pointer-events: none;
-}
-
 .index-item-title-text {
 	font-family: futura-pt;
     font-weight: 400;
@@ -645,6 +692,10 @@ footer {
 	line-height: .9em; 
 	color:white;
 	}
+ul.lowersocial {
+	padding: 0 !important;
+	margin: 0 !important;
+}
 
-
-/*	width="640" height="360"*/1
+.navbar-collapse {
+	flex-basis: 0 !important; }

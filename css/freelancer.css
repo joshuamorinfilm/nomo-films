@@ -194,6 +194,7 @@ section.tagline {
     padding-top: 75px; }  
 	
   .tagline2 {
+		text-align: center;
 		font-family:Grto,sans-serif;
 		font-size:1em;
 		line-height:1em !important
@@ -319,6 +320,7 @@ section.tagline {
 		line-height:1em
 	}
 	.tagline2 {
+		text-align: center;
 		font-family:Grto,sans-serif;
 		font-size:1.5em;
 		line-height:1em

@@ -188,19 +188,19 @@ section.tagline {
       font-size: 4.75em; }
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
-  section {
-    padding: 25px 0; }
-  section.first {
-    padding-top: 75px; }  
+	section {
+		padding: 25px 0; }
+	section.first {
+		padding-top: 75px; }  
 	
-  .tagline2 {
+	.tagline2 {
 		text-align: center;
 		font-family:Grto,sans-serif;
 		font-size:1em;
 		line-height:1em !important
 	}
-
-
+	.bannervid2 {
+		margin-top:80px; }
 }
 
 .scroll-top {
@@ -325,6 +325,9 @@ section.tagline {
 		font-size:1.5em;
 		line-height:1em
 	}
+	.bannervid2 {
+		margin-top:100px; }
+
 
 }
 

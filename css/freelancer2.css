@@ -129,16 +129,16 @@ section.tagline {
 	
 }
   
-  @media (orientation: landscape) and (max-width: 767px) {
-	.logos {
-		display:inherit;
-	}
-}	  
+  /* @media (orientation: landscape) and (max-width: 767px) { */
+	/* .logos { */
+		/* display:inherit; */
+	/* } */
+/* }	   */
 
-  @media (orientation: portrait) and (max-width: 767px) {
-	.logos {
-		display:none;
-	}
+  /* @media (orientation: portrait) and (max-width: 767px) { */
+	/* .logos { */
+		/* display:none; */
+	/* } */
 }	  
    
    
@@ -272,6 +272,11 @@ section.tagline {
 
  #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
     margin: 0 0 30px; } }
+
+
+
+
+
 
 header.masthead {
   padding-top: 22px;

@@ -30,7 +30,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 		<!-- Custom styles for this template -->
-		<link href="css/freelancer2.css" rel="stylesheet">
+		<link href="css/freelancer.css" rel="stylesheet">
 		
 		<!-- Custom styles for this template -->
 		<link href="css/full-slider.css" rel="stylesheet">
@@ -40,23 +40,18 @@
 
 	  <body id="page-top">
 
-		<div class="container">
 		<!-- Navigation -->
-		<nav class="navbar navbar-light fixed-top navbar-shrink" id="mainNav">
-		  <div class="container"> 
- 		    <a class="navbar-brand js-scroll-trigger" href="/"><img src="img/NOMOFILMS_Logo.png" alt="NOMO Films Logo" width="50px" /></a>
-			<div class="col tagline">
-				  - AMPLIFYING <strong>EMOTIONAL</strong> STORIES THAT CREATE <strong>CHANGE</strong> IN THE WORLD -
-			</div>
-	
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+		  <div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="/">NOMO Films</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-			Menu
-			<i class="fa fa-bars"></i>
+			  Menu
+			  <i class="fa fa-bars"></i>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 			  <ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger" href="shortfilms.html">Short Films</a>
+				  <a class="nav-link js-scroll-trigger" href="work.html">Commercial</a>
 				</li>
 				<li class="nav-item">
 				  <a class="nav-link js-scroll-trigger" href="about.html">About</a>
@@ -65,73 +60,46 @@
 				  <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
 				</li>
 			  </ul>
+			<!-- <ul class="social"> -->
+				<!-- <li class="list-inline-item"> -->
+				  <!-- <a class="btn-social" target="_blank" href="http://youtube.com/nomofilms"> -->
+				  <!-- <i class="fa fa-fw text-black fa-youtube"></i> -->
+				  <!-- </a> -->
+				<!-- </li> -->
+				<!-- <li class="list-inline-item"> -->
+				  <!-- <a class="btn-social" target="_blank" href="http://instagram.com/nomofilms"> -->
+					<!-- <i class="fa fa-fw text-black fa-instagram"></i> -->
+				  <!-- </a> -->
+				<!-- </li> -->
+				<!-- <li class="list-inline-item"> -->
+				  <!-- <a class="btn-social" target="_blank" href="http://facebook.com/gonomofilms"> -->
+					<!-- <i class="fa fa-fw text-black fa-facebook"></i> -->
+				  <!-- </a> -->
+				<!-- </li> -->
+				<!-- <li class="list-inline-item"> -->
+				  <!-- <a class="btn-social" target="_blank" href="https://www.linkedin.com/company/14028211"> -->
+					<!-- <i class="fa fa-fw text-black fa-linkedin"></i> -->
+				  <!-- </a> -->
+				<!-- </li> -->
+			<!-- </ul> -->
 			</div>
 		  </div>
 		</nav>
-		</div>
-
+		<section class="tagline">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="tagline">- AMPLIFYING <strong>EMOTIONAL</strong> STORIES THAT CREATE <strong>CHANGE</strong> IN THE WORLD -</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section class="bannervid">
 			<img class="vi-lazyload-img" src="img/508088512.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/508088512?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		</section>
 		
-		<section style="padding:0 !important">	
 
-			<div class="row">
-				<div class="col-sm-6 p-1">
-					<a href="/ana.html"><img class="img-fluid" src="img/ana.jpg" alt=""></a>
-					<div class="index-item-text-wrapper">
-					<h2 class="index-item-title">
-						<span class="index-item-title-text">ALL NIPPON AIRLINES</span>
-					</h2>
-					</div>
-				</div>
-				<div class="col-sm-6 p-1">
-					<a href="/alz.html"><img class="img-fluid" src="img/Remember_1.1.1.jpg" alt=""></a>
-					<div class="index-item-text-wrapper">
-					<h2 class="index-item-title">
-						<span class="index-item-title-text">ALZHEIMER'S ASSOCIATION</span>
-					</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 p-1">
-					<a href="/dd.html"><img class="img-fluid" src="img/nomodentures.jpg" alt=""></a>
-					<div class="index-item-text-wrapper">
-					<h2 class="index-item-title">
-						<span class="index-item-title-text">DESERT DENTAL</span>
-					</h2>
-					</div>
-				</div>
-				<div class="col-sm-6 p-1">
-					<a href="/alliance.html"><img class="img-fluid" src="img/Alliance.jpg" alt=""></a>
-					<div class="index-item-text-wrapper">
-					<h2 class="index-item-title">
-						<span class="index-item-title-text">ALLIANCE TO END PLASTIC WASTE</span>
-					</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 p-1">
-					<a href="/care.html"><img class="img-fluid" src="img/CARE.jpg" alt=""></a>
-					<div class="index-item-text-wrapper">
-					<h2 class="index-item-title">
-						<span class="index-item-title-text">CARE</span>
-					</h2>
-					</div>
-				</div>
-				<div class="col-sm-6 p-1">
-					<a href="/tread.html"><img class="img-fluid" src="img/treadright.jpg" alt=""></a>
-					<div class="index-item-text-wrapper">
-					<h2 class="index-item-title">
-						<span class="index-item-title-text">TREADRIGHT</span>
-					</h2>
-					</div>
-				</div>
-			</div>
-		</section>
 		<!-- Footer -->
 		<footer class="text-center">
 			<div class="footer-above">
@@ -179,6 +147,8 @@
 		</div>
 
 	
+			
+
 		<!-- Bootstrap core JavaScript -->
 		<script src="vendor/jquery/jquery.min.js"></script>
 		<script src="vendor/popper/popper.min.js"></script>
@@ -186,6 +156,10 @@
 
 		<!-- Plugin JavaScript -->
 		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+		<!-- <!-- Contact Form JavaScript -->
+		<!-- <script src="js/jqBootstrapValidation.js"></script> -->
+		<!-- <script src="js/contact_me.js"></script> -->
 
 		<!-- Custom scripts for this template -->
 		<script src="js/freelancer.js"></script>		

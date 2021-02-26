@@ -128,19 +128,6 @@ section.tagline {
 	align: bottom;
 	
 }
-  
-  @media (orientation: landscape) and (max-width: 767px) {
-	.logos {
-		display:inherit;
-	}
-}	  
-
-  @media (orientation: portrait) and (max-width: 767px) {
-	.logos {
-		display:none;
-	}
-}	  
-   
    
 @media (max-width: 575px) {
    
@@ -157,6 +144,15 @@ section.tagline {
 		height: calc(100% - 8vw);
 		pointer-events: none;
 	}	
+	
+	.tagline {
+		text-align:center !important; 
+		font-family:Grto,sans-serif;
+		font-size:1em;
+		line-height:.8em
+	}
+	.bannervid {
+		margin-top:95px; }
 }  
 
 @media (min-width: 576px) {
@@ -173,14 +169,20 @@ section.tagline {
     height: calc(100% - 8vw);
     pointer-events: none;
 	}
+	
+	.tagline {
+		text-align:center !important; 
+		font-family:Grto,sans-serif;
+		font-size:1.5em;
+		line-height:1em
+	}
+	.bannervid {
+		margin-top:95px; }
 }
 
 @media (max-width: 990px) {
 	.index-item-title-text {
 		font-size: .5em;
-	}
-	.social	{
-		display: none;
 	}
 
 	header.masthead {
@@ -191,20 +193,11 @@ section.tagline {
 	section {
 		padding: 25px 0; }
 	section.first {
-		padding-top: 75px; }  
-	
-	.tagline2 {
-		text-align: center;
-		font-family:Grto,sans-serif;
-		font-size:1em;
-		line-height:1em !important
-	}
-	.bannervid2 {
-		margin-top:95px; }
-}
+		padding-top: 75px; } 
 
+}	
 
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -246,22 +239,14 @@ section.tagline {
 	.index-item-title-text {
 		font-size: 1em;
 	}
+
 	.tagline {
 		text-align:center !important; 
 		font-family:Grto,sans-serif;
-		font-size:1.5em;
+		font-size:2em;
 		line-height:1em
 	}
-	.tagline2 {
-		text-align: center;
-		font-family:Grto,sans-serif;
-		font-size:1.5em;
-		line-height:1em
-	}
-	.bannervid2 {
-		margin-top:100px; }
-
-
+	
 }
 
 @media (min-width: 768px) {
@@ -273,7 +258,14 @@ section.tagline {
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
 
-}
+@media (min-width: 767px) {
+
+ #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
+    margin: 0 0 30px; } }
+
+
+
+
 
 
 header.masthead {
@@ -301,8 +293,7 @@ header.masthead {
     -o-background-size: cover;
     background-size: cover; }
             
-
-	  
+  
 
 .scroll-top {
   position: fixed;
@@ -321,57 +312,54 @@ header.masthead {
     .scroll-top .btn:focus {
       outline: none; }
 
-
-
 #mainNav {
   font-family: 'Chokle';
   font-weight: 700;
   text-transform: uppercase;
   border: none;
   background: white; }
-  #mainNav a:focus {
-    outline: none; }
-  #mainNav .navbar-brand {
-    font-family: 'Chokle';
+#mainNav a:focus {
+outline: none; }
+#mainNav .navbar-brand {
+	font-family: 'Chokle';
 	font-size: 2em;
-    color: #2C3E50; }
-    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: black; }
-  #mainNav .navbar-nav {	
-    letter-spacing: 1px; }
-    #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: #2C3E50; }
-      #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #18BC9C;
-        outline: none; }
-      #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-        color: #18BC9C; }
-  #mainNav .navbar-toggler {
-    font-size: 14px;
-    padding: 11px;
-    text-transform: uppercase;
-    color: #2C3E50;
-    border-color: #2C3E50; }
-    #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-      color: #2C3E50;
-      border-color: #18BC9C;
-      background-color: #18BC9C; } 
-	    
-	.embed-container { 
-		position: relative; 
-		padding-bottom: 56.25%; 
-		height: 0; overflow: hidden; 
-		max-width: 100%; height: auto; 
-	} 
-	.embed-container iframe, .embed-container object, .embed-container embed { 
-	   position: absolute; 
-	   top: 0; 
-	   left: 0; 
-	   width: 100%; 
-	   height: 100%; 
-	} 
-		  
-	  
+	color: #2C3E50; }
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+	color: black; }
+#mainNav .navbar-nav {	
+	letter-spacing: 1px; }
+#mainNav .navbar-nav li.nav-item a.nav-link {
+	color: #2C3E50; }
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+	color: #18BC9C;
+	outline: none; }
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+	color: #18BC9C; }
+#mainNav .navbar-toggler {
+	font-size: 14px;
+	padding: 11px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	border-color: #2C3E50; }
+#mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
+	color: #2C3E50;
+	border-color: #18BC9C;
+	background-color: #18BC9C; } 
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; overflow: hidden; 
+	max-width: 100%; height: auto; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+} 	  
+
 #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
@@ -410,11 +398,7 @@ header.masthead {
 #portfolio #branded #tourism #personal * {
   z-index: 2; }
 
-@media (min-width: 767px) {
- 
- #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
-    margin: 0 0 30px; } 
-	}
+
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;
@@ -708,6 +692,5 @@ ul.lowersocial {
 	padding: 0 !important;
 	margin: 0 !important;
 }
-
-.navbar-collapse {
-	flex-basis: 0 !important; }
+/* .navbar-collapse { */
+	/* flex-basis: 0 !important; }	 */

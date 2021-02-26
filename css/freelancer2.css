@@ -184,9 +184,6 @@ section.tagline {
 	.index-item-title-text {
 		font-size: .5em;
 	}
-	.social	{
-		display: none;
-	}
 
 	header.masthead {
 	header.masthead .intro-text .name {
@@ -242,8 +239,7 @@ section.tagline {
 	.index-item-title-text {
 		font-size: 1em;
 	}
-	.navbar-collapse {
-		flex-basis: 0 !important; }	
+
 	.tagline {
 		text-align:center !important; 
 		font-family:Grto,sans-serif;
@@ -696,3 +692,5 @@ ul.lowersocial {
 	padding: 0 !important;
 	margin: 0 !important;
 }
+	.navbar-collapse {
+		flex-basis: 0 !important; }	

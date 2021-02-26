@@ -401,8 +401,7 @@ outline: none; }
 @media (min-width: 767px) {
  
  #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
-    margin: 0 0 30px; } 
-	}
+    margin: 0 0 30px; } }
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;
@@ -696,6 +695,3 @@ ul.lowersocial {
 	padding: 0 !important;
 	margin: 0 !important;
 }
-
-.navbar-collapse {
-	flex-basis: 0 !important; }

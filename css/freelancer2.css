@@ -209,7 +209,9 @@ section.tagline {
 	section {
 		padding: 25px 0; }
 	section.first {
-		padding-top: 75px; }  
+		padding-top: 75px; } 
+ .navbar-collapse {
+	flex-basis: 0 !important; }		
 }	
 
 @media (min-width: 991px) {
@@ -266,7 +268,10 @@ section.tagline {
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
 
+@media (min-width: 767px) {
 
+ #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
+    margin: 0 0 30px; } }
 
 header.masthead {
   padding-top: 22px;
@@ -398,10 +403,7 @@ outline: none; }
 #portfolio #branded #tourism #personal * {
   z-index: 2; }
 
-@media (min-width: 767px) {
- 
- #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
-    margin: 0 0 30px; } }
+
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;

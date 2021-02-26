@@ -161,8 +161,8 @@ section.tagline {
 	.tagline {
 		text-align:center !important; 
 		font-family:Grto,sans-serif;
-		font-size:1.5em;
-		line-height:1em
+		font-size:.8em;
+		line-height:.8em
 	}
 	.bannervid {
 		margin-top:95px; }

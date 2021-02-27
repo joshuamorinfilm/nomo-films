@@ -152,7 +152,13 @@ section.tagline {
 		line-height:.8em
 	}
 	.bannervid {
-		margin-top:95px; }
+		margin-top:95px; 
+		display:none; }
+		
+	.logos {
+		display:none;
+	}
+	
 }  
 
 @media (min-width: 576px) {

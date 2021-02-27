@@ -89,13 +89,13 @@ section.success {
 
 section.whatwedo {
   padding-top: 2em;
-  padding-bottom: 2;
+  padding-bottom: 2em;
   color: black;
   background: white; }
 
 section.logos {
   padding-top: 2em;
-  padding-bottom: 2;
+  padding-bottom: 2em;
   color: black;
   background: #D3D3D3; }
 
@@ -124,8 +124,7 @@ section.tagline {
 
 .logos img {
 	padding-left: 10px;
-	align: bottom;
-	
+	vertical-align: bottom;
 }
    
 @media (max-width: 575px) {

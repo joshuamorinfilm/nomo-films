@@ -152,8 +152,7 @@ section.tagline {
 		line-height:.8em
 	}
 	.bannervid {
-		margin-top:95px; 
-		display:none; }
+		margin-top:95px;  }
 		
 	.logos {
 		display:none;
@@ -200,6 +199,8 @@ section.tagline {
 		padding: 25px 0; }
 	section.first {
 		padding-top: 75px; } 
+	.bannervid {
+		display:none; }
 
 }	
 

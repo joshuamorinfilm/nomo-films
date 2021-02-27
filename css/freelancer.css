@@ -196,24 +196,6 @@ section.tagline {
 	.commercial { padding-top:0px;}
 }
 
-
-@media (max-width: 990px) {
-	.index-item-title-text {
-		font-size: .5em;
-	}
-
-	header.masthead {
-	header.masthead .intro-text .name {
-      font-size: 4.75em; }
-    header.masthead .intro-text .skills {
-      font-size: 1.75em; } }
-	section {
-		padding: 25px 0; }
-	section.first {
-		padding-top: 75px; } 
-
-
-}	
 @media (min-width: 845px) {
 	.tagline {
 		text-align:center !important; 
@@ -221,6 +203,24 @@ section.tagline {
 		font-size:2em;
 		line-height:1em;	}
 }
+
+@media (max-width: 990px) {
+	.index-item-title-text {
+		font-size: .5em;
+	}
+
+	header.masthead {
+		header.masthead .intro-text .name {
+		  font-size: 4.75em; }
+		header.masthead .intro-text .skills {
+		  font-size: 1.75em; } }
+
+	section {
+		padding: 25px 0; }
+	section.first {
+		padding-top: 75px; } 
+
+}	
 
 @media (min-width: 991px) {
   #mainNav {

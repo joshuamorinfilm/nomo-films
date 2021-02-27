@@ -136,7 +136,7 @@ section.tagline {
 }	  
 
   @media (orientation: portrait) and (max-width: 767px) {
-	.bannervid {
+	.logos {
 		display:none;
 	}
 }	  

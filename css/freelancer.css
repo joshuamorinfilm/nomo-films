@@ -33,10 +33,9 @@ h3,
 h4,
 h5,
 h6 {
-font-family: futura-pt;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: .11em;
+	font-family:Grto,sans-serif;
+	font-size:2em;
+	line-height:1em;	
     text-transform: none;
 	line-height: .9em; 
 	color:black; }

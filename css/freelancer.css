@@ -191,6 +191,8 @@ section.tagline {
 	.commercial { padding-top:80px;}
 }
 @media (min-width: 634px) {
+	.bannervid {
+		display: block; }
 	.commercial { padding-top:0px;}
 }
 

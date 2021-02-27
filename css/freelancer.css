@@ -207,12 +207,6 @@ section.tagline {
 		font-size: .5em;
 	}
 
-	header.masthead {
-		header.masthead .intro-text .name {
-		  font-size: 4.75em; }
-		header.masthead .intro-text .skills {
-		  font-size: 1.75em; } }
-
 	section {
 		padding: 25px 0; }
 	section.first {

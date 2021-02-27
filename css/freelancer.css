@@ -214,7 +214,14 @@ section.tagline {
 
 
 }	
-
+@media (min-width: 844px) {
+	.tagline {
+		text-align:center !important; 
+		font-family:Grto,sans-serif;
+		font-size:2em;
+		line-height:1em
+	}
+}
 @media (min-width: 991px) {
   #mainNav {
     padding-top: 25px;
@@ -258,12 +265,7 @@ section.tagline {
 		font-size: 1em;
 	}
 
-	.tagline {
-		text-align:center !important; 
-		font-family:Grto,sans-serif;
-		font-size:2em;
-		line-height:1em
-	}
+
 
 }
 

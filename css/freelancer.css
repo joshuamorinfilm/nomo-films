@@ -185,6 +185,16 @@ section.tagline {
 		margin-top:95px; }
 }
 
+@media (min-width: 633px) {
+	.bannervid {
+		display:none; }
+	.commercial { padding-top:150px;}
+}
+@media (min-width: 576px) {
+	.commercial { padding-top:0px;}
+}
+
+
 @media (max-width: 990px) {
 	.index-item-title-text {
 		font-size: .5em;
@@ -199,9 +209,7 @@ section.tagline {
 		padding: 25px 0; }
 	section.first {
 		padding-top: 75px; } 
-	.bannervid {
-		display:none; }
-	.commercial { padding-top:150px;}
+
 
 }	
 
@@ -254,7 +262,7 @@ section.tagline {
 		font-size:2em;
 		line-height:1em
 	}
-	.commercial { padding-top:0px;}
+
 }
 
 @media (min-width: 768px) {

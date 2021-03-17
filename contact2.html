@@ -24,11 +24,8 @@
 		<!-- Custom styles for this template -->
 		<link href="css/full-slider.css" rel="stylesheet">
 		<link href="css/vi-lazyload.css" rel="stylesheet">
-		 <script>
-		   function onSubmit(token) {
-			 document.getElementById("contact-form").submit();
-		   }
-		</script>
+		<script src="https://www.google.com/recaptcha/api.js"></script>
+		
 	  </head>
 
 	  <body id="page-top">
@@ -103,10 +100,8 @@
 					  <textarea class="form-control" name="message" placeholder="Your message" required></textarea>
 				  </div>
 					<button type="submit" class="g-recaptcha btn btn-primary" 
-						data-sitekey="6LdiZoAaAAAAACtFH_YX43CPEQ5CrB80puZB6Qaj" 
-						data-callback='onSubmit' 
-						data-action='submit'>Send</button>
-
+						>Send</button>
+					<div class="g-recaptcha" data-sitekey="6LdiZoAaAAAAACtFH_YX43CPEQ5CrB80puZB6Qaj"></div>
 				  </div>
 				</form>	
 			</div>
@@ -162,7 +157,7 @@
 		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
 
-		<script src="https://www.google.com/recaptcha/api.js"></script>
+
 		
 		<!-- Custom scripts for this template -->
 		<script src="js/freelancer.js"></script>		

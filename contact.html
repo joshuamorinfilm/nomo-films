@@ -3,7 +3,7 @@
 	  <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="NOMO Films || Films that Inspire">
+		<meta name="description" content="NOMO Films - Amplifying emotional stories that make change in the world">
 		<meta name="author" content="NOMO Films">
 		<meta property="og:image" content="img/NOMOFILMS_Logo.png" />
 		<meta name="robots" content="noindex">
@@ -24,6 +24,12 @@
 		<!-- Custom styles for this template -->
 		<link href="css/full-slider.css" rel="stylesheet">
 		<link href="css/vi-lazyload.css" rel="stylesheet">
+		<script src="https://www.google.com/recaptcha/api.js"></script>
+		<script>
+		   function onSubmit(token) {
+			 document.getElementById("contact-form").submit();
+		   }
+		 </script>
 		
 	  </head>
 
@@ -73,35 +79,32 @@
 			</div>
 
 		</section>
-		<!-- <section> -->
-			<!-- <div class="container"> -->
-				<!-- <form -->
-				  <!-- action="https://www.formbackend.com/f/333ee1f56ad61f21" -->
-				  <!-- method="POST" -->
-				<!-- > -->
-				  <!-- <div class="form-group"> -->
-					<!-- <label for="name">Name *</label> -->
-					<!-- <input type="text" class="form-control" id="name" name="_name" placeholder="Your Name" required> -->
-				  <!-- </div> -->
-				  <!-- <div class="form-group"> -->
-					  <!-- <label for="email">Email *</label> -->
-					  <!-- <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required /> -->
-					  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-				  <!-- </div> -->
-				  <!-- <div class="form-group"> -->
-					  <!-- <label for="_phone">Phone #</label> -->
-					  <!-- <input type="phone" class="form-control" id="_phone" name="_phone" placeholder="999-999-9999" required /> -->
-				  <!-- </div> -->
+		<section>
+			<div class="container">
+				<form accept-charset="UTF-8" action="https://www.formbackend.com/f/333ee1f56ad61f21" method="POST">
+				  <div class="form-group">
+					<label for="name">Name *</label>
+					<input type="text" class="form-control" id="name" name="_name" placeholder="Your Name" required>
+				  </div>
+				  <div class="form-group">
+					  <label for="email">Email *</label>
+					  <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required />
+					  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				  </div>
+				  <div class="form-group">
+					  <label for="_phone">Phone #</label>
+					  <input type="phone" class="form-control" id="_phone" name="_phone" placeholder="999-999-9999" required />
+				  </div>
 				  
-				  <!-- <div class="form-group"> -->
-					  <!-- <label>Message *</label> -->
-					  <!-- <textarea class="form-control" name="message" placeholder="Your message" required></textarea> -->
-				  <!-- </div> -->
-					<!-- <button type="submit" class="btn btn-primary">Send</button> -->
-				  <!-- </div> -->
-				<!-- </form>	 -->
-			<!-- </div> -->
-		<!-- </section> -->
+				  <div class="form-group">
+					  <label>Message *</label>
+					  <textarea class="form-control" name="message" placeholder="Your message" required></textarea>
+				  </div>
+				
+				  <button  type="submit">Submit</button>
+				</form>	
+			</div>
+		</section>	
 
 		<!-- Footer -->
 		<footer class="text-center">
@@ -152,10 +155,9 @@
 		<!-- Plugin JavaScript -->
 		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-		<!-- <!-- Contact Form JavaScript -->
-		<!-- <script src="js/jqBootstrapValidation.js"></script> -->
-		<!-- <script src="js/contact_me.js"></script> -->
-		<script src="https://www.google.com/recaptcha/api.js"></script>
+
+
+		
 		<!-- Custom scripts for this template -->
 		<script src="js/freelancer.js"></script>		
 		

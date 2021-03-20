@@ -184,8 +184,8 @@ section.tagline {
 }
 
 @media (max-width: 633px) {
-	.bannervid {
-		display:none; }
+	/* .bannervid { */
+		/* display:none; } */
 	.commercial { padding-top:80px;}
 }
 @media (min-width: 634px) {

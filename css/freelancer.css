@@ -29,12 +29,21 @@ a:hover {
   
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
 	font-family:Grto,sans-serif;
 	font-size:2em;
+	line-height:1em;	
+    text-transform: none;
+	line-height: .9em; 
+	color:black; }
+
+
+h4,
+h5,
+h6
+{
+	font-family:Grto,sans-serif;
+	font-size:1em;
 	line-height:1em;	
     text-transform: none;
 	line-height: .9em; 

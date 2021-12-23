@@ -152,7 +152,7 @@ div.imagetiles img {
 	vertical-align: bottom;
 }
 	div.imagetiles {
-		flex-wrap:none;
+		flex-wrap:none !important;
 	}
 
   div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{

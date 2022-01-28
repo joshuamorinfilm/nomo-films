@@ -1,0 +1,925 @@
+	<!DOCTYPE html>
+	<html lang="en">
+
+	  <head>
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+	  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178925329-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-178925329-1');
+		</script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>NOMO Films</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom fonts for this template -->
+		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+		<!-- Custom styles for this template -->
+		<link href="css/freelancer.css" rel="stylesheet">
+		
+		<!-- Custom styles for this template -->
+		<link href="css/full-slider.css" rel="stylesheet">
+
+
+	  </head>
+
+	  <body id="page-top">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav" >
+		  <div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="/">NOMO Films</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			  Menu
+			  <i class="fa fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+			  <ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+				  <a class="nav-link js-scroll-trigger" href="/">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link js-scroll-trigger" href="branded.html">Branded</a>
+				</li>
+
+				<li class="nav-item">
+				  <a class="nav-link js-scroll-trigger" href="passion.html">Passion</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link js-scroll-trigger" href="/#contact">Contact</a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+	
+		<!-- Travel Boards Grid Section -->
+		<section id="tourism" style="padding-top: 6em;">
+		  <div class="container">
+			<h2 class="text-center">TRAVEL BRANDS</h2>
+			<div class="row">
+
+				<!-- Asheville -->
+				<div class="col-sm-4 portfolio-item">
+					<a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+					  <div class="caption">
+						<div class="caption-content">
+						  Sammy Visits Asheville<br />
+						  Client: Asheville Tourism
+						</div>
+					  </div>
+					  <img class="img-fluid" src="/img/portfolio/sammy.jpg" alt="Sammy Visits Asheville">
+					</a>
+				</div>
+				
+			<!-- Val Di Sole -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  I'll always remember<br />
+					  Client: Val Di Sole, Italy Tourism
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/val.jpg" alt="I'll always remember">
+				</a>
+			</div>
+				
+			<!-- Ireland -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  Ireland in 60 seconds<br />
+					  Client: Ireland Tourism
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/ireland.jpg" alt="Ireland in 60 seconds">
+				</a>
+			</div>
+
+			<!-- Jordan -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  GO Jordan<br />
+					  Client: Jordan Tourism
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/gojordan.jpg" alt="GO Jordan">
+				</a>
+			</div>
+
+			<!-- Adriondacks -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  ADIRONDACKS FROM THE AIR<br />
+					  Client: ADIRONDACKS TOURISM BOARD
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/adirondacks.jpg" alt="Adirondacks from the air">
+				</a>
+			</div>
+			
+
+			<!-- India -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  WILDLIFE SOS INDIA<br />
+					  Client: TREADRIGHT
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/tread-india.jpg" alt="Wildlife SOS">
+				</a>
+			</div>
+			
+			<!-- Al Jazeera -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal7" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  THE TRAVELER<br />
+					  Client: AL JAZEERA
+					  </div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/aljazeera1.jpg" alt="The Traveler">
+				</a>
+			</div>
+			
+			<!-- Go Tequila -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal8" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  GO TEQUILA<br />
+					  Client: NATIONAL GEOGRAPHIC / TEQUILA TOURISM
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/gotequila.jpg" alt="GO Tequila">
+				</a>
+			</div>
+			
+			<!-- Go Tequila -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal9" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  AUSTRIAN TIME<br />
+					  Client: AUSTRIA TOURISM
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/austriantime.jpg" alt="Austrian Time">
+				</a>
+			</div>
+			
+			<!-- Niagara -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal10" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  Niagara<br />
+					  Client: Destination Canada
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/niagara.jpg" alt="Niagara">
+				</a>
+			</div>
+			
+			<!-- Insight Cuba -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal11" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  Insight Cuba // Havana <br />
+					  Client: Insight Cuba
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/insightcubajazz.jpg" alt="Havana">
+				</a>
+			</div>
+			
+			<!-- Panama from the air -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal12" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  Panama from the Air <br />
+					  Client: Matador Network
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/panama.jpg" alt="Panama from the Air">
+				</a>
+			</div>
+			
+			<!-- Virginia Beach -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal13" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  Visit Virginia Beach<br />
+					  Client: Virginia Beach Tourism
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/viriginiabeach.jpg" alt="Visit Virginia Beach">
+				</a>
+			</div>
+			
+			<!-- Arizona -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal14" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  Authentically Arizona<br />
+					  Client: Arizona Tourism
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/arizona.jpg" alt="Authentically Arizona">
+				</a>
+			</div>
+			
+			<!-- Yukon -->
+			<div class="col-sm-4 portfolio-item">
+				<a class="portfolio-link" href="#portfolioModal15" data-toggle="modal">
+				  <div class="caption">
+					<div class="caption-content">
+					  In the Yukon<br />
+					  Client: Yukon Tourism / Destination Canada
+					</div>
+				  </div>
+				  <img class="img-fluid" src="/img/portfolio/yukon.jpg" alt="In the Yukon">
+				</a>
+			</div>				
+			
+			
+		</div>
+	  </div> 
+	</section>	
+	
+	
+		<!-- Footer -->
+		<footer class="text-center">
+		  <div class="footer-above">
+			<div class="container">
+			  <div class="row">
+				<div class="footer-col col-md-4">
+				</div>
+				<div class="footer-col col-md-4">
+				  <h3>Around the Web</h3>
+				  <ul class="list-inline">
+				  <li class="list-inline-item">
+					  <a class="btn-social btn-outline" target="_blank" href="http://youtube.com/nomofilms">
+						<i class="fa fa-fw fa-youtube"></i>
+					  </a>
+					</li>
+					<li class="list-inline-item">
+					  <a class="btn-social btn-outline" target="_blank" href="http://instagram.com/nomofilms">
+						<i class="fa fa-fw fa-instagram"></i>
+					  </a>
+					</li>
+					<li class="list-inline-item">
+					  <a class="btn-social btn-outline" target="_blank" href="http://facebook.com/gonomofilms">
+						<i class="fa fa-fw fa-facebook"></i>
+					  </a>
+                	</li>
+				  </ul>
+				</div>
+				<div class="footer-col col-md-4">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="footer-below">
+			<div class="container">
+			  <div class="row">
+				<div class="col-lg-12">
+				  Copyright &copy; NOMO Films 2019
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</footer>
+		
+		
+		<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+		<div class="scroll-top d-lg-none">
+		  <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+			<i class="fa fa-chevron-up"></i>
+		  </a>
+		</div>
+
+	<!-- Val Di Sole -->
+	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+				  <div class="rl"></div>
+				</div>
+			  </div>
+			  <div class="container">
+				<div class="row">
+				  <div class="col-lg-8 mx-auto">
+					<div class="modal-body">
+					  <h2>I'll Always Remember</h2>
+					  <hr class="star-primary">
+					  <iframe src="https://player.vimeo.com/video/203874313" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					  <ul class="list-inline item-details">
+						<li>Client: 
+						  <strong>
+							Val Di Sole, Italy Tourism
+						  </strong>
+						</li>
+						<li>Agency: 
+						  <strong>
+							StoryTravelers
+						  </strong>
+						</li>
+						</ul>
+					  <button class="btn btn-success" type="button" data-dismiss="modal">
+						<i class="fa fa-times"></i>
+						Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>		
+		
+		<!-- Asheville -->
+		<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>Sammy Visits Asheville</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/230442533" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Asheville Tourism
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								Matador Network
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>		
+		
+		<!-- Ireland in 60 -->
+		<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>Ireland in 60 seconds</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/307175641" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Ireland Tourism
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								Matador Network
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>			
+
+		<!-- GO Jordan -->
+		<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>GO Jordan</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/238280638" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Jordan Tourism
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								Matador Network
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>					
+		
+		<!-- Adirondacks from the air -->
+		<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>Adirondacks from the Air</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/307178755" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Adirondacks Tourism
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								Matador Network
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>		
+
+		<!-- Wildlife SOS India -->
+		<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>Wildlife SOS India</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/304125494" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								TreadRight
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								Bannikin
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>		
+
+		<!-- The Traveler -->
+		<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>THE TRAVELER</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/269916188" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								AL JAZEERA
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								STORYTRAVELERS
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>		
+
+		<!-- GO Tequila -->
+		<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>GO Tequila</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/166745894" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								National Geographic / Tequila Tourism
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								Matador Network
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>		
+
+		<!-- Austria Time -->
+		<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>Austria Time</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/150813209" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Austria Tourism
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								StoryTravelers
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>				
+			
+		<!-- Niagara -->
+		<div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>Niagara</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/247614778" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Destination Canada
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								Matador Network
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>			
+
+
+		<!-- Insight Cuba -->
+		<div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>Jazz in Havana</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/185145512" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Insight Cuba
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>			
+			
+		<!-- Panama from the air -->
+		<div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>Panama from the Air</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/160100393" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Matador Network
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>			
+
+			<!-- Virginia Beach -->
+		<div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>Visit Virginia Beach</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/290310295" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						   <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Virginia Beach Tourism
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								Matador Network
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>	
+
+
+			<!-- Arizona -->
+		<div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>Authentically Arizona</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/250336623" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						   <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Arizona Tourism
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								Matador Network
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>		
+		
+		<!-- Yukon -->
+		<div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+					  <div class="rl"></div>
+					</div>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+						  <h2>In the Yukon</h2>
+						  <hr class="star-primary">
+						  <iframe src="https://player.vimeo.com/video/245065295" class="vimeosettings" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						   <ul class="list-inline item-details">
+							<li>Client: 
+							  <strong>
+								Yukon Tourism
+							  </strong>
+							</li>
+							<li>Agency: 
+							  <strong>
+								Matador Network
+							  </strong>
+							</li>
+							</ul>
+						  <button class="btn btn-success" type="button" data-dismiss="modal">
+							<i class="fa fa-times"></i>
+							Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>				
+		
+		<!-- Bootstrap core JavaScript -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/popper/popper.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Plugin JavaScript -->
+		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+		<!-- Contact Form JavaScript -->
+		<script src="js/jqBootstrapValidation.js"></script>
+		<script src="js/contact_me.js"></script>
+
+		<!-- Custom scripts for this template -->
+		<script src="js/freelancer.js"></script>
+
+	  </body>
+
+	</html>
+

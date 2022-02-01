@@ -35,12 +35,21 @@
 		<!-- Custom styles for this template -->
 		<link href="css/full-slider.css" rel="stylesheet">
 		<link href="css/vi-lazyload.css" rel="stylesheet">
-
+		<script src="/vendor/jquery/jquery.min.js"></script> 
+		
+		<script>
+			$(function(){
+			  $("#header").load("includes/header.html"); 
+			});		
+			$(function(){
+			  $("#footer").load("includes/footer.html"); 
+			});
+		</script> 
 	  </head>
 
 	  <body id="page-top">
 
-		<div class="container">
+		<div id="header"></div>
 		<!-- Navigation -->
 		<nav class="navbar navbar-light fixed-top navbar-shrink" id="mainNav">
 		  <div class="container"> 

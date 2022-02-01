@@ -36,39 +36,20 @@
 		<link href="css/full-slider.css" rel="stylesheet">
 		<link href="css/vi-lazyload.css" rel="stylesheet">
 		
+		<script src="/vendor/jquery/jquery.min.js"></script> 
+		<script>
+			$(function(){
+			  $("#header").load("includes/header.html"); 
+			});		
+			$(function(){
+			  $("#footer").load("includes/footer.html"); 
+			});
+		</script> 
 	  </head>
 
 	  <body id="page-top">
 
-		<div class="container">
-		<!-- Navigation -->
-		<nav class="navbar navbar-light fixed-top navbar-shrink" id="mainNav">
-		  <div class="container"> 
- 		    <a class="navbar-brand js-scroll-trigger" href="/"><img src="/img/nomofilmsthumb.png" alt="NOMO Films Logo" width="50px" /></a>
-			<div class="col tagline">
-				  -&nbsp;AMPLIFYING EMOTIONAL STORIES THAT CREATE CHANGE&nbsp;IN&nbsp;THE&nbsp;WORLD&nbsp;-
-			</div>
-	
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-			Menu
-			<i class="fa fa-bars"></i>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-			  <ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger" href="/">Commercial</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger" href="/about.html">About</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger" href="/contact.html">Contact</a>
-				</li>
-			  </ul>
-			</div>
-		  </div>
-		</nav>
-		</div>
+		<div id="header"></div>
 		
 		<section style="padding-top:80px !important;">	
 			<div class="vi-lazyload" data-id="496917001" data-thumb=""></div>			
@@ -149,8 +130,7 @@
 		
 
 
-		<!-- Bootstrap core JavaScript -->
-		<script src="vendor/jquery/jquery.min.js"></script>
+
 		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
 		<!-- Plugin JavaScript -->

@@ -49,7 +49,7 @@
 		
 		
 		
-		<link rel='stylesheet' id='semplice-stylesheet-css' href='new/wp-content/themes/semplice5/style.css?ver=5.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='semplice-stylesheet-css' href='new/wp-content/themes/semplice5/style.css?ver=5.3.3' type='text/css' media='all' />
 <link rel='stylesheet' id='semplice-frontend-stylesheet-css' href='new/wp-content/themes/semplice5/assets/css/frontend.min.css?ver=5.3.3' type='text/css' media='all' />
 <link rel='stylesheet' id='mediaelement-css' href='new/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
 <script type="text/javascript" src="new/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
@@ -62,7 +62,22 @@
 <link rel='preconnect' href='https://fonts.googleapis.com'>
 <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
 <link href='https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap' rel='stylesheet'>
-<link rel='stylesheet' href='https://use.typekit.net/myl6zff.css'><style type="text/css" id="semplice-webfonts-css">.font_o6kn0mqz4, [data-font="font_o6kn0mqz4"], [data-font="font_o6kn0mqz4"] li a, #content-holder h4, #content-holder p, #content-holder li {font-family: "Roboto Mono", sans-serif;font-weight: 400;font-style: normal;}.font_wfupudgxv, [data-font="font_wfupudgxv"], [data-font="font_wfupudgxv"] li a {font-family: "Roboto Mono", sans-serif;font-weight: 700;font-style: normal;}.font_khwf2zywx, [data-font="font_khwf2zywx"], [data-font="font_khwf2zywx"] li a {font-family: "video", sans-serif;font-weight: 400;font-style: normal;}.font_hs6ppbg3a, [data-font="font_hs6ppbg3a"], [data-font="font_hs6ppbg3a"] li a, #content-holder h1, #content-holder h2, #content-holder h3 {font-family: "headline-gothic-atf", sans-serif;font-weight: 400;font-style: normal;}</style>
+<link rel='stylesheet' href='https://use.typekit.net/myl6zff.css'><style type="text/css" id="semplice-webfonts-css">.font_o6kn0mqz4, [data-font="font_o6kn0mqz4"], [data-font="font_o6kn0mqz4"] li a, #content-holder h4, #content-holder p, #content-holder li {font-family: "Roboto Mono", sans-serif;font-weight: 400;font-style: normal;}.font_wfupudgxv, [data-font="font_wfupudgxv"], [data-font="font_wfupudgxv"] li a {font-family: "Roboto Mono", sans-serif;font-weight: 700;font-style: normal;}.font_khwf2zywx, [data-font="font_khwf2zywx"], [data-font="font_khwf2zywx"] li a {font-family: "video", sans-serif;font-weight: 400;font-style: normal;}.font_hs6ppbg3a, [data-font="font_hs6ppbg3a"], [data-font="font_hs6ppbg3a"] li a, #content-holder h1, #content-holder h2, #content-holder h3 {font-family: "headline-gothic-atf", sans-serif;font-weight: 400;font-style: normal;}
+
+
+
+
+
+
+</style>
+
+
+<style>
+
+.linkwrap { position:relative; display:inline-block; }
+.blocker { position:absolute; height:100%; width:100%; z-index:1; background:rgba(255,0,0,0.5);  }
+.linkwrap iframe { z-index: 2; }
+</style>
 		<style type="text/css" id="semplice-custom-css">
 			
 			#content-holder h1 { font-size: 3.5555555555555554rem;line-height: 3.2222222222222223rem;}#content-holder h2 { font-size: 2.4444444444444446rem;line-height: 2.3333333333333335rem;letter-spacing: 0.5555555555555556rem;}#content-holder h3 { font-size: 1.2222222222222223rem;line-height: 1.6666666666666667rem;letter-spacing: 0.4444444444444444rem;}#content-holder h4 { font-size: 0.8888888888888888rem;line-height: 1.3333333333333333rem;}#content-holder p, #content-holder li { font-size: 0.8888888888888888rem;line-height: 1.3333333333333;letter-spacing: 0.011111111111111112rem;}#content-holder .is-content p { margin-bottom: 1.3333333333333em; }@media screen and (min-width: 992px) and (max-width: 1169.98px) { }@media screen and (min-width: 768px) and (max-width: 991.98px) { }@media screen and (min-width: 544px) and (max-width: 767.98px) { }@media screen and (max-width: 543.98px) { }
@@ -320,16 +335,27 @@
 		</div>
 		</div>
 
-			<a href="/">
-
-		<section class="bannervid">
+ 		<section class="bannervid">
 			<img class="vi-lazyload-img" src="img/910496258.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910496258?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>			
 		</section>
-		</a>
 		<section class="bannervid">
 			<img class="vi-lazyload-img" src="img/910426253.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910426253?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<a href="redirect.html" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;text-align: center; 
+	
+   	font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .11em;
+    text-transform: none;
+    line-height: .9em;
+    color: white;
+    font-size: 2em;
+    padding-top: 1em;
+			
+			
+			">DJI</a>
 		</section>	
 		<section class="bannervid">
 			<img class="vi-lazyload-img" src="img/910458032.jpg" alt="" />

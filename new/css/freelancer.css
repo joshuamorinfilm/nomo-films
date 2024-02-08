@@ -165,7 +165,7 @@ div.imagetiles img {
    
    
 @media (max-width: 575px) {
-   
+/*    
   	.index-item-text-wrapper {
 		display: flex;
 		flex-direction: column;
@@ -190,12 +190,12 @@ div.imagetiles img {
 		
 	.logos {
 		display:none;
-	}
+	} */
 	
 }  
 
 @media (min-width: 576px) {
-	.index-item-text-wrapper {
+/* 	.index-item-text-wrapper {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -215,12 +215,12 @@ div.imagetiles img {
 		font-size:1.5em;
 		line-height:1em
 	}
-	.bannervid {}
+	.bannervid {} */
 }
 
 @media (max-width: 633px) {
 	.bannervid {
-		display:none; }
+		 }
 	.commercial { padding-top:80px;}
 }
 @media (min-width: 634px) {
@@ -250,7 +250,7 @@ div.imagetiles img {
 }	
 
 @media (min-width: 991px) {
-  #mainNav {
+/*   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -290,25 +290,26 @@ div.imagetiles img {
 	
 	.index-item-title-text {
 		font-size: 1em;
-	}
+	} */
 
 
 
 }
 
 @media (min-width: 768px) {
-  /* header.masthead { */
-    /* padding-top: 110px; */
-    /* padding-bottom: 100px; } */
-    header.masthead .intro-text .name {
+/*     header.masthead .intro-text .name {
       font-size: 4.75em; }
     header.masthead .intro-text .skills {
-      font-size: 1.75em; } }
+      font-size: 1.75em; }  */
+      
+      }
 
 @media (min-width: 767px) {
 
- #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
-    margin: 0 0 30px; } }
+/*  #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
+    margin: 0 0 30px; }
+     */
+     }
 
 
 
@@ -739,5 +740,3 @@ ul.lowersocial {
 	padding: 0 !important;
 	margin: 0 !important;
 }
-/* .navbar-collapse { */
-	/* flex-basis: 0 !important; }	 */

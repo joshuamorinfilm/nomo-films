@@ -37,7 +37,6 @@
 		
 		<style>
     #navbarSupportedContent {
-
         height: 0;
         width: 100%;
         position: fixed;
@@ -72,6 +71,26 @@
             display: block;
         }
       }
+      
+       .dropdown  {
+
+      	background-color: transparent;
+           	font-size: 1.5em;
+      }
+      
+      .dropdown button {
+      	color: #C7BF6D;
+
+      }
+      
+      div.worksection {
+      	display: flex;
+      }
+      
+      .aboutsection ul {
+      list-style:none;
+      
+      }
 </style>
 <script>
   function openNav() {
@@ -90,17 +109,85 @@
     	</button>
     	<div class="" id="navbarSupportedContent" style=" z-index:5">
       	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      	<ul class="navbar-nav ml-auto" id="overlay-content">
-        <li class="nav-item pr-5">
-          <a class="nav-link" href="#">ABOUT</a>
-        </li>
-        <li class="nav-item pr-5">
-          <a class="nav-link" href="#">WORK</a>
-        </li>
-        <li class="nav-item pr-5">
-          <a class="nav-link" href="#">CONTACT</a>
-        </li>
-      	</ul>
+
+<div class="accordion dropdown" id="accordionMain">
+  <div class="card bg-transparent">
+    <div class="card-header" id="headingOne">
+      <h2 class="dropdown">
+        <button class="btn dropdown" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          ABOUT
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionMain">
+      <div class="card-body">
+        NOMO is a production studio that creates and shapes culture through cinematic films. We work on commercials, documentaries, music videos, and films. While our headquarters are based in New York and Toronto, we’ve worked on productions in over 50 countries. That's allowed us to develop a diverse creative team that spans the globe, which makes it easy to offer honest perspectives wherever a project touches down.
+      </div>
+    </div>
+  </div>
+  <div class="card bg-transparent">
+    <div class="card-header" id="headingTwo">
+      <h2 class="">
+        <button class="btn dropdown collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          WORK
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionMain">
+      <div class="card-body worksection">
+      	<a href="selectedworks/dji">DJI /</a><a href="selectedworks/bayer">BAYER /</a><a href="selectedworks/pfizer">PFIZER /</a>
+      	<a href="selectedworks/thetraveller">AL JAZEERA /</a><a href="selectedworks/bbcoctranspo">BBC</a>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-transparent">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn dropdown collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          CONTACT
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionMain">
+      <div class="card-body aboutsection">
+      	<ul>
+      		<li>Joshua Morin<li/>
+      		<li>Owner / Title?</li>
+			<li>joshua@nomofilms.com</li>
+		</ul>
+		<ul>
+      		<li>Blaze Nowara<li/>
+      		<li>Owner / Title?</li>
+			<li>blaze@nomofilms.com</li>
+		</ul>
+		<ul>
+      		<li>Daniel Tal<li/>
+      		<li>Title?</li>
+			<li>daniel@nomofilms.com</li>
+		</ul>
+
+Address in New York<br/>
+Address in Toronto
+      </div>
+    </div>
+  </div>
+</div>
+      	
+      	
+      	
+<!--       	<ul class="navbar-nav" id="overlay-content">
+	        <li class="nav-item pr-5">
+         		<a class="nav-link" href="#">ABOUT</a>
+	        </li>
+	        <li class="nav-item pr-5">
+	          <a class="nav-link" href="#">WORK</a>
+	        </li>
+	        <li class="nav-item pr-5">
+	          <a class="nav-link" href="#">CONTACT</a>
+	        </li>
+      	</ul> -->
     	</div>
   		</nav>
  		<section class="bannervid">

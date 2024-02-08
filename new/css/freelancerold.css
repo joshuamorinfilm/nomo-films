@@ -297,18 +297,19 @@ div.imagetiles img {
 }
 
 @media (min-width: 768px) {
-  /* header.masthead { */
-    /* padding-top: 110px; */
-    /* padding-bottom: 100px; } */
     header.masthead .intro-text .name {
       font-size: 4.75em; }
     header.masthead .intro-text .skills {
-      font-size: 1.75em; } }
+      font-size: 1.75em; } 
+      
+      }
 
 @media (min-width: 767px) {
 
  #portfolio .portfolio-item, #branded .portfolio-item, #tourism .portfolio-item, #personal .portfolio-item {
-    margin: 0 0 30px; } }
+    margin: 0 0 30px; }
+    
+     }
 
 
 
@@ -739,5 +740,3 @@ ul.lowersocial {
 	padding: 0 !important;
 	margin: 0 !important;
 }
-/* .navbar-collapse { */
-	/* flex-basis: 0 !important; }	 */

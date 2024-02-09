@@ -36,104 +36,149 @@
 		<script src="vendor/jquery/jquery.min.js"></script>
 		
 		<style>
-    #navbarSupportedContent {
-
-        height: 0;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: rgb(0,0,0);
-        background-color: rgba(0,0,0, 0.9);
-        overflow-x: hidden;
-        transition: 0.5s;
-      }
-
-      #overlay-content {
-
-        position: relative;
-        top: 25%;
-        width: 100%;
-        text-align: center;
-        margin-top: 30px;
-      }
-
-      #navbarSupportedContent a {
-        
-        padding: 8px;   
-        text-decoration: none;
-        font-size: 36px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-      }
-      @media (min-width: 992px) {
-        .navbar-expand-lg .navbar-toggler {
-            display: block;
-        }
-      }
-      .overlay span{
- 	 position:absolute;
-  	top:50%;
-  	left:50%;
-  	transform:translate(-50%,-50%);
-  	color:#fff;
-	z-index: 5;
-	}
-</style>
-<script>
-  function openNav() {
-     document.getElementById("navbarSupportedContent").style.height = "100%";
-  }
-    function closeNav() {
-      document.getElementById("navbarSupportedContent").style.height = "0%";
-  }
-</script>
+		      	.overlay {
+ 	 				position:absolute;
+  					top:50%;
+  					left:50%;
+  					transform:translate(-50%,-50%);
+  					color:#fff;
+					z-index: 5;
+				}
+				
+				
+				.slides {
+					display: flex; 
+					justify-content: center; 
+					align-items: center;
+					h1, h2, h3, h4 { 
+						color: white !important;
+					}
+				}
+				.slide1 .overlay  {
+					h1, h2, h3, h4 { 
+						text-align: center;
+					}
+					h2 {
+						font-size:6em;
+					}
+					h3 {
+						font-size:3em; 
+					}
+					h4 {
+						font-size:2em;
+					}
+					
+				}
+				.slide2 {
+					height:40em;
+				}
+				.slide4 {
+					height:40em;
+					h1, h2, h3, h4 { 
+						text-align: left;
+					}
+					h3 {
+					 font-size:5em;
+					 
+					 }
+				}
+				
+				.slide7 {
+					h1, h2, h3, h4 { 
+						text-align: center;
+					}
+					h3 {
+					 font-size:5em;
+					 
+					 }
+				}
+				
+				
+				
+		</style>
 </head>		
 		
-	  <body id="page-top">
- 		<section class="bannervid position-relative">
+<body id="page-top">
+ 	<section class="bannervid position-relative slides slide1">
  			<img class="vi-lazyload-img" src="img/910969169.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910969169?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>			
  			<div class="overlay">
- 				<span class="text-center">
- 					<h4 class="text-white" style="font-size:6em;">DOW DIARIES</h4>
- 					<h4 class="text-white" style="font-size:2em;">DEMYSTIFYING<br />BUILDING TRUST<br />EMPOWERING<br /></h4>
- 					<h3 class="text-white" style="font-size:3em;">THROUGH EMOTIONAL STORIES</h3>
+
+ 					<h2>DOW DIARIES</h4>
+ 					<h4>DEMYSTIFYING<br />BUILDING TRUST<br />EMPOWERING<br /></h4>
+ 					<h3>THROUGH EMOTIONAL STORIES</h3>
  				
- 				</span>
+
     		</div>
 		</section>
- 		<section class="bannervid position-relative">
- 					<div>
- 						<h1 class="text-white text-center mt-9" style="font-size:9em;">STORIES OVER<br />NUMBERS</h1>
- 					</div>
+ 		<section class="slides slide2" >
+ 				<img class="vi-lazyload-img" src="img/2.jpg" alt="" />
+<!--  						<h1 class="text-white text-center" style="font-size:9rem;">STORIES OVER<br />NUMBERS</h1> -->
 		</section>
- 		<section class="bannervid position-relative">
+ 		<section class="bannervid position-relative slide3">
  			<img class="vi-lazyload-img" src="img/799239799.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>			
+			<iframe src='https://player.vimeo.com/video/911294405?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>			
  			<div class="overlay">
  				<span class="text-center">
  					<h3 class="text-white" style="font-size:3em;">PRESENTED BY <br />NOMO FILMS<h3> 	
  				</span>
     		</div>
 		</section>		
- 		<section class="bannervid position-relative">			
-				<div class="container">
-      				<div class="card-deck mb-3 text-center">
-        				<div class="card mb-4 bg-transparent">
-        					<div class="card-body	">
-        						<h3  class="text-white text-left" style="font-size:200px;">PROPOSAL</h3> 
-        						<p style="font-size:.75em; text-align:justify;">There’s nothing wrong with videos exploring massive amounts of data, systems and academic language…as long as they’re being played at a conference full of experts and analysts. </p>
-	        					<h5 style="font-size:.5em;>BUT WHAT ABOUT EVERYONE ELSE?</h5>
-	        				
-	        				</div>
-        			</div>
-       
-
-    		</div>
+ 		<section class="bannervid position-relative slides slide4">		
+	 		<img class="vi-lazyload-img" src="img/4.jpg" alt="" />
 		</section>				
+ 		<section class="bannervid position-relative slides slide5">		
+	 		<img class="vi-lazyload-img" src="img/5.jpg" alt="" />
+	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	
+			<div class="overlay">
+ 				<span class="text-center">
+ 					<h1 class="text-white" style="font-size:10em;">WHO&nbsp;IS&nbsp;NOMO<h1> 	
+ 				</span>
+    		</div>
+		</section>	
+
+ 		<section class="bannervid position-relative slides slide6">		
+	 		<img class="vi-lazyload-img" src="img/6.jpg" alt="" />
+	 	</section>	
+		
+ 		<section class="bannervid position-relative slides slide7">		
+	 		<img class="vi-lazyload-img" src="img/7.jpg" alt="" />
+	 		<iframe src='https://player.vimeo.com/video/911295368?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	
+			<div class="overlay">
+ 				<span class="text-center">
+ 					<h1 class="text-white" style="font-size:14em;">WHAT<br />WE'RE<br />THINKING<h1> 	
+ 				</span>
+    		</div>
+		</section>
+ 		<section class="bannervid position-relative slides slide7">		
+	 		<img class="vi-lazyload-img" src="img/8.jpg" alt="" />
+<!-- 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	 -->
+		</section>
+ 		<section class="bannervid position-relative slides slide7">		
+	 		<img class="vi-lazyload-img" src="img/9.jpg" alt="" />
+<!-- 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	 -->
+		</section>
+ 		<section class="bannervid position-relative slides slide7">		
+	 		<img class="vi-lazyload-img" src="img/10.jpg" alt="" />
+	 		<iframe src='https://player.vimeo.com/video/911296330?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	
+		</section>		
+ 		<section class="bannervid position-relative slides slide7">		
+	 		<img class="vi-lazyload-img" src="img/11.jpg" alt="" />
+<!-- 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	 -->
+		</section>
+ 		<section class="bannervid position-relative slides slide7">		
+	 		<img class="vi-lazyload-img" src="img/12.jpg" alt="" />
+<!-- 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	 -->
+		</section>
+ 		<section class="bannervid position-relative slides slide7">		
+	 		<img class="vi-lazyload-img" src="img/13.jpg" alt="" />
+<!-- 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	 -->
+		</section>
+ 		<section class="bannervid position-relative slides slide7">		
+	 		<img class="vi-lazyload-img" src="img/14.jpg" alt="" />
+<!-- 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	 -->
+		</section>
+
 		<!-- Footer -->
 		<div id="footer"></div>
 

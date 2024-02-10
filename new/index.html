@@ -105,7 +105,7 @@
       }
        
        .text {
-       	  color: white;
+    color: white;
   	font-size: 20px;
   	position: absolute;
   	top: 50%;
@@ -138,37 +138,35 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
+} 
 
 
 section.bannervid {
    }
 
-.bannervid:hover .play {
+ .bannervid:hover .play {
 	display:block; 
 
 }
 .play {
   	position : absolute;
-    display:none;
     top:50%; 
     width:40px;
     margin:0 auto; left:0px;
     right:0px;
     z-index:100
-} 
-.play img {
-	width: 40px;
-	text-align:center;
-}
-.play img:hover {
+}  
+	.play img:hover {
     opacity: 1.0;
     transition: opacity .25s ease-in;
     -moz-transition: opacity .25s ease-in;
     -webkit-transition: opacity .25s ease-in;
     }
- .play img {
-    opacity: 0.6;
+    
+    .play img {
+   	width: 40px;
+	text-align:center;
+	opacity: 0.5;
     transition: opacity .55s ease-in;
     -moz-transition: opacity .55s ease-in;
     -webkit-transition: opacity .55s ease-in;
@@ -181,8 +179,26 @@ section.bannervid {
     margin:0 auto; 
     left:100px;
     right:0px;
-    z-index:6
+    z-index:3
 	}
+	
+	.footer {
+	opacity: 0;
+    transform: scale(1.2);
+	}
+	
+	@media (prefers-reduced-motion: no-preference) {
+  		.footer {
+    		transition: opacity 1.5s ease, transform 1.5s ease;
+  		}
+	}
+	
+	.footer-transition {
+    opacity: 1;
+    transform: none;
+}
+	
+
 	
 </style>
 
@@ -193,6 +209,23 @@ section.bannervid {
     function closeNav() {
       document.getElementById("navbarSupportedContent").style.height = "0%";
   }
+
+const footer = document.querySelector('.footer');
+footer.classList.remove('footer-transition');
+
+// Create the observer, same as before:
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      footer.classList.add('footer-transition');
+      return;
+    }
+
+    footer.classList.remove('footer-transition');
+  });
+});
+
+observer.observe(document.querySelector('.footer'));
 </script>
 </head>		
 		
@@ -252,7 +285,7 @@ section.bannervid {
       <li><a href="selectedworks/pfizer">PFIZER&nbsp;/</a></li>
       <li><a href="selectedworks/thetraveller">AL&nbsp;JAZEERA&nbsp;/</a></li>
       <li><a href="selectedworks/bbcoctranspo">BBC&nbsp;/</a></li>
-      <li><a href="selectedworks/bbcoctranspo">CARE&nbsp;/</a></li>
+      <li><a href="selectedworks/care">CARE&nbsp;/</a></li>
       <li><a href="selectedworks/bbcoctranspo">HP&nbsp;/</a></li>
       <li><a href="selectedworks/bbcoctranspo">PANASONIC & OLYMPICS&nbsp;/</a></li>
       <li><a href="selectedworks/bbcoctranspo">BBC & SOY NIÑA&nbsp;/</a></li>
@@ -324,7 +357,7 @@ section.bannervid {
 			<iframe src='https://player.vimeo.com/video/910426253?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/dji" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<img src="img/play-xxl.png" />
+			<a href="selectedworks/dji"><img src="img/play-xxl.png" /></a>
 			</div>
 			<div class="videotitle">DJI</div>
 		</section>	
@@ -333,7 +366,7 @@ section.bannervid {
 			<iframe src='https://player.vimeo.com/video/910458032?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/bayer" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<img src="img/play-xxl.png" />
+			<a href="selectedworks/bayer"><img src="img/play-xxl.png" /></a>
 			</div>
 			<div class="videotitle">BAYER</div>
 		</section>
@@ -342,7 +375,7 @@ section.bannervid {
 			<iframe src='https://player.vimeo.com/video/910563209?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/thetraveller" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<img src="img/play-xxl.png" />
+			<a href="selectedworks/thetraveller"><img src="img/play-xxl.png" /></a>
 			</div>
 			<div class="videotitle">AL JAZEERA</div>
 		</section>			
@@ -351,7 +384,7 @@ section.bannervid {
 			<iframe src='https://player.vimeo.com/video/910471280?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/pfizer" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<img src="img/play-xxl.png" />
+			<a href="selectedworks/pfizer"><img src="img/play-xxl.png" /></a>
 			</div>
 			<div class="videotitle">PFIZER</div>
 		</section>		
@@ -360,35 +393,42 @@ section.bannervid {
 			<iframe src='https://player.vimeo.com/video/910479946?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/bbcoctranspo" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<img src="img/play-xxl.png" />
+			<a href="selectedworks/bbcoctranspo"><img src="img/play-xxl.png" /></a>
 			</div>
 			<div class="videotitle">BBC</div>
 		</section>	
 		<section class="bannervid">
-			<img class="vi-lazyload-img" src="img/364888920.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/364888920?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<img class="vi-lazyload-img" src="img/911638588.jpg" alt="" />
+			<iframe src='https://player.vimeo.com/video/911638588?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/care" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<img src="img/play-xxl.png" />
+			<a href="selectedworks/care"><img src="img/play-xxl.png" /></a>
 			</div>
 			<div class="videotitle">CARE</div>
 		</section>	
 		<section class="bannervid">
 			<img class="vi-lazyload-img" src="img/364888920.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/911753726?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			<a href="selectedworks/bbcoctranspo" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
+			<a href="selectedworks/panasonic" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<img src="img/play-xxl.png" />
+			<a href="selectedworks/panasonic"><img src="img/play-xxl.png" /></a>
 			</div>
-			<div class="videotitle">PANASONIC & OLYMPICS</div>
+			<div class="videotitle">PANASONIC &<BR /> OLYMPICS</div>
 		</section>	
-
+		<section class="bannervid">
+			<img class="vi-lazyload-img" src="img/911836444.jpg" alt="" />
+			<iframe src='https://player.vimeo.com/video/911836444?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<a href="selectedworks/airstream" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
+			<div class="play">
+			<a href="selectedworks/airstream"><img src="img/play-xxl.png" /></a>
+			</div>
+			<div class="videotitle">AIRSTREAM</div>
+		</section>
 		<!-- Footer -->
 		
-		<div class="container-fluid footer pt-4 d-none d-lg-block">
-
+		<div class="container-fluid footer footer-transition pt-4 d-none d-lg-block">
       		<div class="row">
-      			<div class="col"  style="transform: translate3d(0px, 0.3235rem, 0px);">
+      			<div class="col">
 					<ul>
       				<li><strong>Joshua Morin</strong><li/>
       				<li>Founder</li>

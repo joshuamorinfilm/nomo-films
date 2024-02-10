@@ -81,11 +81,11 @@
         .navbar-expand-lg .navbar-toggler {
             display: block;
         }
-        .videotitle {
-        }
+	.hover_img a { position:relative; }
+	.hover_img a:hover span { display:block; }
       }
       
-      
+	.hover_img a span { position:absolute; display:none; z-index:99; }      
        .dropdown  {
       		background-color: transparent;
            	color:white;
@@ -166,10 +166,6 @@
     right:0px;
     z-index:3
 	}
-	
-	.hover_img a { position:relative; }
-	.hover_img a span { position:absolute; display:none; z-index:99; }
-	.hover_img a:hover span { display:block; }
 </style>
 
 <script>

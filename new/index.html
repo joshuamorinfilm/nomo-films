@@ -210,22 +210,6 @@ section.bannervid {
       document.getElementById("navbarSupportedContent").style.height = "0%";
   }
 
-const footer = document.querySelector('.footer');
-footer.classList.remove('footer-transition');
-
-// Create the observer, same as before:
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      footer.classList.add('footer-transition');
-      return;
-    }
-
-    footer.classList.remove('footer-transition');
-  });
-});
-
-observer.observe(document.querySelector('.footer'));
 </script>
 </head>		
 		
@@ -352,7 +336,7 @@ observer.observe(document.querySelector('.footer'));
 			<iframe src='https://player.vimeo.com/video/910496258?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>			
 		</section>
 		
-		<section class="bannervid relative">
+		<section class="bannervid relative" id="dji">
 			<img class="vi-lazyload-img" src="img/910426253.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910426253?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/dji" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
@@ -361,7 +345,7 @@ observer.observe(document.querySelector('.footer'));
 			</div>
 			<div class="videotitle">DJI</div>
 		</section>	
-		<section class="bannervid">
+		<section class="bannervid" id="bayer">
 			<img class="vi-lazyload-img" src="img/910458032.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910458032?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/bayer" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
@@ -370,7 +354,7 @@ observer.observe(document.querySelector('.footer'));
 			</div>
 			<div class="videotitle">BAYER</div>
 		</section>
-		<section class="bannervid">
+		<section class="bannervid" id="traveller">
 			<img class="vi-lazyload-img" src="img/910563209.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910563209?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/thetraveller" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
@@ -379,7 +363,7 @@ observer.observe(document.querySelector('.footer'));
 			</div>
 			<div class="videotitle">AL JAZEERA</div>
 		</section>			
-		<section class="bannervid">
+		<section class="bannervid" id="pfizer">
 			<img class="vi-lazyload-img" src="img/910471280.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910471280?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/pfizer" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
@@ -388,7 +372,7 @@ observer.observe(document.querySelector('.footer'));
 			</div>
 			<div class="videotitle">PFIZER</div>
 		</section>		
-		<section class="bannervid">
+		<section class="bannervid" id="bbc">
 			<img class="vi-lazyload-img" src="img/910479946.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910479946?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/bbcoctranspo" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
@@ -397,7 +381,7 @@ observer.observe(document.querySelector('.footer'));
 			</div>
 			<div class="videotitle">BBC</div>
 		</section>	
-		<section class="bannervid">
+		<section class="bannervid" id="care">
 			<img class="vi-lazyload-img" src="img/911638588.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/911638588?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/care" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
@@ -406,7 +390,7 @@ observer.observe(document.querySelector('.footer'));
 			</div>
 			<div class="videotitle">CARE</div>
 		</section>	
-		<section class="bannervid">
+		<section class="bannervid" id="panasonic">
 			<img class="vi-lazyload-img" src="img/364888920.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/911753726?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/panasonic" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
@@ -415,7 +399,7 @@ observer.observe(document.querySelector('.footer'));
 			</div>
 			<div class="videotitle">PANASONIC &<BR /> OLYMPICS</div>
 		</section>	
-		<section class="bannervid">
+		<section class="bannervid" id="airstream">
 			<img class="vi-lazyload-img" src="img/911836444.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/911836444?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/airstream" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
@@ -426,8 +410,8 @@ observer.observe(document.querySelector('.footer'));
 		</section>
 		<!-- Footer -->
 		
-		<div class="container-fluid footer footer-transition pt-4 d-none d-lg-block">
-      		<div class="row">
+		<div class="container-fluid footer-wrapper pt-4 d-none d-lg-block">
+      		<div class="row footer footer-transition">
       			<div class="col">
 					<ul>
       				<li><strong>Joshua Morin</strong><li/>
@@ -460,8 +444,24 @@ observer.observe(document.querySelector('.footer'));
 		</div>
 		</div>
 		</div>
-		
+<script>
+const footer = document.querySelector('.footer');
+footer.classList.remove('footer-transition');
 
+// Create the observer, same as before:
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      footer.classList.add('footer-transition');
+      return;
+    }
+
+    footer.classList.remove('footer-transition');
+  });
+});
+
+observer.observe(document.querySelector('.footer-wrapper'));
+</script>
 		<script src="vendor/popper/popper.min.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 

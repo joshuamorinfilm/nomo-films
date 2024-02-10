@@ -46,7 +46,7 @@
         background-color: rgb(0,0,0);
         background-color: rgba(0,0,0, 0.9);
         overflow-x: hidden;
-        transition: 0.5s;
+        transition: 0.75s;
       }
 
       #overlay-content {
@@ -59,10 +59,10 @@
 
       #navbarSupportedContent a {
         
-        padding: 8px;   
+        padding: 4px;   
         text-decoration: none;
         font-size: 36px;
-        color: #818181;
+        color: white;
         display: block;
         transition: 0.3s;
       }
@@ -71,20 +71,17 @@
             display: block;
         }
       }
-      
        .dropdown  {
-
-      	background-color: transparent;
-           	font-size: 1.5em;
+      		background-color: transparent;
+           	color:white;
       }
       
       .dropdown button {
+      	font-size: 80px;
       	color: #C7BF6D;
-
       }
      
       .worksection ul {
-<!--       	display: flex; -->
       	list-style:none;
       	font-size: 1em; 
       }
@@ -96,10 +93,99 @@
      .worksection ul li {
   		white-space: normal;
   	}
-      .aboutsection ul {
+  	
+  	.aboutsection ul {
       list-style:none;
+      font-size:20px;
       }
+  	 
+  	 .footer ul {
+      	list-style:none;
+      	color:white;
+      }
+       
+       .text {
+       	  color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+section.bannervid {
+   }
+
+.bannervid:hover .play {
+	display:block; 
+
+}
+.play {
+  	position : absolute;
+    display:none;
+    top:50%; 
+    width:40px;
+    margin:0 auto; left:0px;
+    right:0px;
+    z-index:100
+} 
+.play img {
+	width: 40px;
+	text-align:center;
+}
+.play img:hover {
+    opacity: 1.0;
+    transition: opacity .25s ease-in;
+    -moz-transition: opacity .25s ease-in;
+    -webkit-transition: opacity .25s ease-in;
+    }
+ .play img {
+    opacity: 0.6;
+    transition: opacity .55s ease-in;
+    -moz-transition: opacity .55s ease-in;
+    -webkit-transition: opacity .55s ease-in;
+}
+	.videotitle {
+	color: white;
+	font-size: 3em;
+	position : absolute;
+    top:50%; 
+    margin:0 auto; 
+    left:100px;
+    right:0px;
+    z-index:6
+	}
+	
 </style>
+
 <script>
   function openNav() {
      document.getElementById("navbarSupportedContent").style.height = "100%";
@@ -130,7 +216,7 @@
 
     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionMain">
       <div class="card-body">
-        NOMO is a production studio that creates and shapes culture through cinematic films. We work on commercials, documentaries, music videos, and films. While our headquarters are based in New York and Toronto, we’ve worked on productions in over 50 countries. That's allowed us to develop a diverse creative team that spans the globe, which makes it easy to offer honest perspectives wherever a project touches down.
+        <p style="margin-left: 30px;">NOMO is a production studio that creates and shapes culture through cinematic films. We work on commercials, documentaries, music videos, and films. While our headquarters are based in New York and Toronto, we’ve worked on productions in over 50 countries. That's allowed us to develop a diverse creative team that spans the globe, which makes it easy to offer honest perspectives wherever a project touches down.</p>
       </div>
     </div>
   </div>
@@ -145,11 +231,37 @@
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionMain">
       <div class="card-body worksection">
       <ul>
-      <li><a href="selectedworks/dji">DJI&nbsp;/</a></li>
-      <li><a href="selectedworks/bayer">BAYER&nbsp;/</a></li>
+      <li>
+<!--       	<div class="container">
+      	<a href="selectedworks/dji" class="text">DJI&nbsp;/</a>
+      	<div class="overlay">
+		    	<img src="img/910496258.jpg" alt="Avatar" class="image">
+      	</div> -->
+
+ 	 	<!--    	 	<div class="text">Hello World</div> -->
+<!--     	</div> -->
+      </li>
+      <li><a href="selectedworks/bayer">
+      			<div class="post-thumbnail" data-image-width="40">
+					<img src="https://airfoilmedia.com/wp-content/uploads/2022/10/Screen-Shot-2022-10-25-at-9.36.52-AM.png" style="top: 232.832px; left: 381.535px; transform: translate(0px, 0px); visibility: hidden; opacity: 0;">
+				</div>BAYER&nbsp;/</a>
+				<div class="apg-post-title">
+					<div class="title" data-font="font_hs6ppbg3a">Adam William Wilson</div>
+				</div>			
+	 </li>
       <li><a href="selectedworks/pfizer">PFIZER&nbsp;/</a></li>
       <li><a href="selectedworks/thetraveller">AL&nbsp;JAZEERA&nbsp;/</a></li>
-      <li><a href="selectedworks/bbcoctranspo">BBC</a></li>
+      <li><a href="selectedworks/bbcoctranspo">BBC&nbsp;/</a></li>
+      <li><a href="selectedworks/bbcoctranspo">CARE&nbsp;/</a></li>
+      <li><a href="selectedworks/bbcoctranspo">HP&nbsp;/</a></li>
+      <li><a href="selectedworks/bbcoctranspo">PANASONIC & OLYMPICS&nbsp;/</a></li>
+      <li><a href="selectedworks/bbcoctranspo">BBC & SOY NIÑA&nbsp;/</a></li>
+      <li><a href="selectedworks/bbcoctranspo">IBELIV&nbsp;/</a></li>   
+      <li><a href="selectedworks/bbcoctranspo">ALLIANCE TO END PLASTIC WASTE&nbsp;/</a></li>   
+      <li><a href="selectedworks/bbcoctranspo">ALZHEIMERS&nbsp;/</a></li>   
+      <li><a href="selectedworks/bbcoctranspo">ANA&nbsp;/</a></li>   
+      <li><a href="selectedworks/bbcoctranspo">TUI</a></li>   
+      <li><a  rel="popover" data-img="img/910471280.jpg">Image 1</a></li>
       </ul>
         </button>
       </div>
@@ -165,6 +277,8 @@
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionMain">
       <div class="card-body aboutsection">
+      	
+      	<div class="d-flex flex-wrap mx-auto">
       	<ul>
       		<li><strong>Joshua Morin</strong><li/>
       		<li>Founder</li>
@@ -180,6 +294,9 @@
       		<li>Creative Director</li>
 			<li>daniel@nomofilms.com</li>
 		</ul>
+		</div>
+		<br />
+		<div class="d-flex">
 		<ul>
 			<li><strong>New York</strong></li>
 			<li>307 West Shore Road</li>
@@ -190,24 +307,11 @@
 			<li>250 Rushton Rd,</li>
 			<li>Toronto ON, M6G 3J5</li>
 		</ul>
-      </div>
-    </div>
-  </div>
-</div>
-      	
-      	
-      	
-<!--       	<ul class="navbar-nav" id="overlay-content">
-	        <li class="nav-item pr-5">
-         		<a class="nav-link" href="#">ABOUT</a>
-	        </li>
-	        <li class="nav-item pr-5">
-	          <a class="nav-link" href="#">WORK</a>
-	        </li>
-	        <li class="nav-item pr-5">
-	          <a class="nav-link" href="#">CONTACT</a>
-	        </li>
-      	</ul> -->
+		</div>
+      	</div>
+   		</div>
+  		</div>
+		</div>	
     	</div>
   		</nav>
  		<section class="bannervid">
@@ -215,33 +319,108 @@
 			<iframe src='https://player.vimeo.com/video/910496258?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>			
 		</section>
 		
-		<section class="bannervid">
+		<section class="bannervid relative">
 			<img class="vi-lazyload-img" src="img/910426253.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910426253?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/dji" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
+			<div class="play">
+			<img src="img/play-xxl.png" />
+			</div>
+			<div class="videotitle">DJI</div>
 		</section>	
 		<section class="bannervid">
 			<img class="vi-lazyload-img" src="img/910458032.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910458032?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/bayer" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
+			<div class="play">
+			<img src="img/play-xxl.png" />
+			</div>
+			<div class="videotitle">BAYER</div>
 		</section>
 		<section class="bannervid">
 			<img class="vi-lazyload-img" src="img/910563209.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910563209?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/thetraveller" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
+			<div class="play">
+			<img src="img/play-xxl.png" />
+			</div>
+			<div class="videotitle">AL JAZEERA</div>
 		</section>			
 		<section class="bannervid">
 			<img class="vi-lazyload-img" src="img/910471280.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910471280?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/pfizer" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
+			<div class="play">
+			<img src="img/play-xxl.png" />
+			</div>
+			<div class="videotitle">PFIZER</div>
 		</section>		
 		<section class="bannervid">
 			<img class="vi-lazyload-img" src="img/910479946.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910479946?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<a href="selectedworks/bbcoctranspo" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
+			<div class="play">
+			<img src="img/play-xxl.png" />
+			</div>
+			<div class="videotitle">BBC</div>
 		</section>	
+		<section class="bannervid">
+			<img class="vi-lazyload-img" src="img/364888920.jpg" alt="" />
+			<iframe src='https://player.vimeo.com/video/364888920?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<a href="selectedworks/care" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
+			<div class="play">
+			<img src="img/play-xxl.png" />
+			</div>
+			<div class="videotitle">CARE</div>
+		</section>	
+		<section class="bannervid">
+			<img class="vi-lazyload-img" src="img/364888920.jpg" alt="" />
+			<iframe src='https://player.vimeo.com/video/911753726?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<a href="selectedworks/bbcoctranspo" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
+			<div class="play">
+			<img src="img/play-xxl.png" />
+			</div>
+			<div class="videotitle">PANASONIC & OLYMPICS</div>
+		</section>	
+
 		<!-- Footer -->
-		<div id="footer"></div>
+		
+		<div class="container-fluid footer pt-4 d-none d-lg-block">
+
+      		<div class="row">
+      			<div class="col"  style="transform: translate3d(0px, 0.3235rem, 0px);">
+					<ul>
+      				<li><strong>Joshua Morin</strong><li/>
+      				<li>Founder</li>
+					<li>joshua@nomofilms.com</li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul>
+      				<li><strong>Blaze Nowara</strong><li/>
+      				<li>Founder / Producer</li>
+					<li>blaze@nomofilms.com</li>
+					</ul>
+				</div>
+				<div class="col">
+				<ul>
+      			<li><strong>Daniel Tal</strong><li/>
+      			<li>Creative Director</li>
+				<li>daniel@nomofilms.com</li>
+				</ul>
+				</div>
+				<div class="col-sm-auto"></div>
+				<div class="col-3">
+				<ul class="allign-right pr-3">
+				<li class="text-right" style="font-size:1.5rem;">NOMO&nbsp;FILMS</li>
+				<li class="text-right" style="font-size:.75rem;">NOMO creates and shapes culture through cinematic pieces that span the worlds of commercials, documentaries, music videos, and films. We’re an emotions-first studio that defiantly pursues work the world wants to talk about.</li>
+				</ul>
+				</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		
 
 		<script src="vendor/popper/popper.min.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>

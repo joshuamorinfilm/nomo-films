@@ -26,7 +26,8 @@
 		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+		<link href="css/aos.css" rel="stylesheet">
+		
 		<!-- Custom styles for this template -->
 		<link href="css/freelancer.css" rel="stylesheet">
 
@@ -104,7 +105,7 @@
       	color:white;
       }
        
-       .text {
+    .text {
     color: white;
   	font-size: 20px;
   	position: absolute;
@@ -112,7 +113,7 @@
   	left: 50%;
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -138,31 +139,30 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-} 
+}  */
 
 
-section.bannervid {
+	section.bannervid {
    }
 
- .bannervid:hover .play {
+	/* Play button */
+ 	.bannervid:hover .play {
 	display:block; 
-
-}
-.play {
+	}
+	.play {
   	position : absolute;
     top:50%; 
     width:40px;
     margin:0 auto; left:0px;
     right:0px;
     z-index:100
-}  
+	}  
 	.play img:hover {
     opacity: 1.0;
     transition: opacity .25s ease-in;
     -moz-transition: opacity .25s ease-in;
     -webkit-transition: opacity .25s ease-in;
     }
-    
     .play img {
    	width: 40px;
 	text-align:center;
@@ -170,7 +170,7 @@ section.bannervid {
     transition: opacity .55s ease-in;
     -moz-transition: opacity .55s ease-in;
     -webkit-transition: opacity .55s ease-in;
-}
+	}
 	.videotitle {
 	color: white;
 	font-size: 3em;
@@ -182,24 +182,9 @@ section.bannervid {
     z-index:3
 	}
 	
-	.footer {
-	opacity: 0;
-    transform: scale(1.2);
-	}
-	
-	@media (prefers-reduced-motion: no-preference) {
-  		.footer {
-    		transition: opacity 1.5s ease, transform 1.5s ease;
-  		}
-	}
-	
-	.footer-transition {
-    opacity: 1;
-    transform: none;
-}
-	
-
-	
+	.hover_img a { position:relative; }
+	.hover_img a span { position:absolute; display:none; z-index:99; }
+	.hover_img a:hover span { display:block; }
 </style>
 
 <script>
@@ -214,8 +199,8 @@ section.bannervid {
 </head>		
 		
 	  <body id="page-top">
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-   		<button class="navbar-toggler navbar-toggler-right" type="button" onclick="openNav()">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+   		<button class="navbar-toggler navbar-toggler-right border-0 " type="button" onclick="openNav()">
       	<span class="navbar-toggler-icon"></span>
     	</button>
     	<div class="" id="navbarSupportedContent" style=" z-index:5">
@@ -240,45 +225,32 @@ section.bannervid {
   <div class="card bg-transparent">
     <div class="card-header" id="headingTwo">
       <h2 class="">
-        <button class="btn dropdown collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button class="btn dropdown collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
           WORK
         </button>
       </h2>
     </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionMain">
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionMain" id="work">
       <div class="card-body worksection">
       <ul>
       <li>
-<!--       	<div class="container">
-      	<a href="selectedworks/dji" class="text">DJI&nbsp;/</a>
-      	<div class="overlay">
-		    	<img src="img/910496258.jpg" alt="Avatar" class="image">
-      	</div> -->
-
- 	 	<!--    	 	<div class="text">Hello World</div> -->
-<!--     	</div> -->
       </li>
-      <li><a href="selectedworks/bayer">
-      			<div class="post-thumbnail" data-image-width="40">
-					<img src="https://airfoilmedia.com/wp-content/uploads/2022/10/Screen-Shot-2022-10-25-at-9.36.52-AM.png" style="top: 232.832px; left: 381.535px; transform: translate(0px, 0px); visibility: hidden; opacity: 0;">
-				</div>BAYER&nbsp;/</a>
-				<div class="apg-post-title">
-					<div class="title" data-font="font_hs6ppbg3a">Adam William Wilson</div>
-				</div>			
-	 </li>
-      <li><a href="selectedworks/pfizer">PFIZER&nbsp;/</a></li>
-      <li><a href="selectedworks/thetraveller">AL&nbsp;JAZEERA&nbsp;/</a></li>
-      <li><a href="selectedworks/bbcoctranspo">BBC&nbsp;/</a></li>
-      <li><a href="selectedworks/care">CARE&nbsp;/</a></li>
-      <li><a href="selectedworks/bbcoctranspo">HP&nbsp;/</a></li>
-      <li><a href="selectedworks/bbcoctranspo">PANASONIC & OLYMPICS&nbsp;/</a></li>
-      <li><a href="selectedworks/bbcoctranspo">BBC & SOY NIÑA&nbsp;/</a></li>
-      <li><a href="selectedworks/bbcoctranspo">IBELIV&nbsp;/</a></li>   
-      <li><a href="selectedworks/bbcoctranspo">ALLIANCE TO END PLASTIC WASTE&nbsp;/</a></li>   
-      <li><a href="selectedworks/bbcoctranspo">ALZHEIMERS&nbsp;/</a></li>   
-      <li><a href="selectedworks/bbcoctranspo">ANA&nbsp;/</a></li>   
-      <li><a href="selectedworks/bbcoctranspo">TUI</a></li>   
-      <li><a  rel="popover" data-img="img/910471280.jpg">Image 1</a></li>
+      
+      <li><div class="hover_img"><a href="selectedworks/bayer">DJI&nbsp;/<span><img src="img/910426253.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/bayer">BAYER&nbsp;/<span><img src="img/903757949.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/pfizer">PFIZER&nbsp;/<span><img src="img/910471280.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/thetraveller">AL&nbsp;JAZEERA&nbsp;/<span><img src="img/910563209.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/bbcoctranspo">BBC&nbsp;/<span><img src="img/780783688.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/care">CARE&nbsp;/<span><img src="img/364888920.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/hp">HP&nbsp;/<span><img src="img/672376614.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/colgate">COLGATE&nbsp;/<span><img src="img/566085048.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/panasonic">PANASONIC & OLYMPICS&nbsp;/<span><img src="img/911852057.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/bbcsoynina">BBC & SOY NIÑA&nbsp;/<span><img src="img/799239799.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/ibeliv">IBELIV&nbsp;/<span><img src="img/651290668.jpg" alt="image" height="200" /></span></a></div></li>   
+      <li><div class="hover_img"><a href="selectedworks/alliance">ALLIANCE TO END PLASTIC WASTE&nbsp;/<span><img src="img/420010925.jpg" alt="image" height="200" /></span></a></div></li>   
+      <li><div class="hover_img"><a href="selectedworks/alz">ALZHEIMERS&nbsp;/<span><img src="img/503833102.jpg" alt="image" height="200" /></span></a></div></li>   
+      <li><div class="hover_img"><a href="selectedworks/ana">ANA&nbsp;/<span><img src="img/508088512.jpg" alt="image" height="200" /></span></a></div></li>   
+      <li><div class="hover_img"><a href="selectedworks/kos">TUI<span><img src="img/673915384.jpg" alt="image" height="200" /></span></a></div></li>   
       </ul>
         </button>
       </div>
@@ -343,7 +315,7 @@ section.bannervid {
 			<div class="play">
 			<a href="selectedworks/dji"><img src="img/play-xxl.png" /></a>
 			</div>
-			<div class="videotitle">DJI</div>
+			<div class="videotitle" data-aos="zoom-out-right">DJI</div>
 		</section>	
 		<section class="bannervid" id="bayer">
 			<img class="vi-lazyload-img" src="img/910458032.jpg" alt="" />
@@ -352,7 +324,7 @@ section.bannervid {
 			<div class="play">
 			<a href="selectedworks/bayer"><img src="img/play-xxl.png" /></a>
 			</div>
-			<div class="videotitle">BAYER</div>
+			<div class="videotitle"  data-aos="zoom-out-right">BAYER</div>
 		</section>
 		<section class="bannervid" id="traveller">
 			<img class="vi-lazyload-img" src="img/910563209.jpg" alt="" />
@@ -361,7 +333,7 @@ section.bannervid {
 			<div class="play">
 			<a href="selectedworks/thetraveller"><img src="img/play-xxl.png" /></a>
 			</div>
-			<div class="videotitle">AL JAZEERA</div>
+			<div class="videotitle"  data-aos="zoom-out-right">AL JAZEERA</div>
 		</section>			
 		<section class="bannervid" id="pfizer">
 			<img class="vi-lazyload-img" src="img/910471280.jpg" alt="" />
@@ -370,7 +342,7 @@ section.bannervid {
 			<div class="play">
 			<a href="selectedworks/pfizer"><img src="img/play-xxl.png" /></a>
 			</div>
-			<div class="videotitle">PFIZER</div>
+			<div class="videotitle"  data-aos="zoom-out-right">PFIZER</div>
 		</section>		
 		<section class="bannervid" id="bbc">
 			<img class="vi-lazyload-img" src="img/910479946.jpg" alt="" />
@@ -379,7 +351,7 @@ section.bannervid {
 			<div class="play">
 			<a href="selectedworks/bbcoctranspo"><img src="img/play-xxl.png" /></a>
 			</div>
-			<div class="videotitle">BBC</div>
+			<div class="videotitle" data-aos="zoom-out-right">BBC</div>
 		</section>	
 		<section class="bannervid" id="care">
 			<img class="vi-lazyload-img" src="img/911638588.jpg" alt="" />
@@ -388,7 +360,7 @@ section.bannervid {
 			<div class="play">
 			<a href="selectedworks/care"><img src="img/play-xxl.png" /></a>
 			</div>
-			<div class="videotitle">CARE</div>
+			<div class="videotitle" data-aos="zoom-out-right">CARE</div>
 		</section>	
 		<section class="bannervid" id="panasonic">
 			<img class="vi-lazyload-img" src="img/911852057.jpg" alt="" />
@@ -397,7 +369,7 @@ section.bannervid {
 			<div class="play">
 			<a href="selectedworks/panasonic"><img src="img/play-xxl.png" /></a>
 			</div>
-			<div class="videotitle">PANASONIC &<BR /> OLYMPICS</div>
+			<div class="videotitle" data-aos="zoom-out-right">PANASONIC &<BR /> OLYMPICS</div>
 		</section>	
 		<section class="bannervid" id="airstream">
 			<img class="vi-lazyload-img" src="img/911836444.jpg" alt="" />
@@ -406,27 +378,27 @@ section.bannervid {
 			<div class="play">
 			<a href="selectedworks/airstream"><img src="img/play-xxl.png" /></a>
 			</div>
-			<div class="videotitle">AIRSTREAM</div>
+			<div class="videotitle" data-aos="zoom-out-right">AIRSTREAM</div>
 		</section>
 		<!-- Footer -->
 		
 		<div class="container-fluid footer-wrapper pt-4 d-none d-lg-block">
       		<div class="row footer footer-transition">
-      			<div class="col">
+      			<div class="col" data-aos="fade-right" data-aos-duration="2000">
 					<ul>
       				<li><strong>Joshua Morin</strong><li/>
       				<li>Founder</li>
 					<li>joshua@nomofilms.com</li>
 					</ul>
 				</div>
-				<div class="col">
+				<div class="col" data-aos="fade-up">
 					<ul>
       				<li><strong>Blaze Nowara</strong><li/>
       				<li>Founder / Producer</li>
 					<li>blaze@nomofilms.com</li>
 					</ul>
 				</div>
-				<div class="col">
+				<div class="col" data-aos="fade-down">
 				<ul>
       			<li><strong>Daniel Tal</strong><li/>
       			<li>Creative Director</li>
@@ -434,7 +406,7 @@ section.bannervid {
 				</ul>
 				</div>
 				<div class="col-sm-auto"></div>
-				<div class="col-3">
+				<div class="col-3" data-aos="fade-left" data-aos-duration="2000">
 				<ul class="allign-right pr-3">
 				<li class="text-right" style="font-size:1.5rem;">NOMO&nbsp;FILMS</li>
 				<li class="text-right" style="font-size:.75rem;">NOMO creates and shapes culture through cinematic pieces that span the worlds of commercials, documentaries, music videos, and films. We’re an emotions-first studio that defiantly pursues work the world wants to talk about.</li>
@@ -444,27 +416,14 @@ section.bannervid {
 		</div>
 		</div>
 		</div>
-<script>
-const footer = document.querySelector('.footer');
-footer.classList.remove('footer-transition');
-
-// Create the observer, same as before:
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      footer.classList.add('footer-transition');
-      return;
-    }
-
-    footer.classList.remove('footer-transition');
-  });
-});
-
-observer.observe(document.querySelector('.footer-wrapper'));
-</script>
 		<script src="vendor/popper/popper.min.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
+		<script src="js/aos.js"></script>
+		
+		
+		<script>
+  		AOS.init();
+		</script>
 		<!-- Plugin JavaScript -->
 		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 

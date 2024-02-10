@@ -7,7 +7,10 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden; 
   background: #000;
-  color: #18BC9C; }
+/*   color: #18BC9C;  */
+    color: white;
+
+  }
 
 p {
   font-size: 20px; }

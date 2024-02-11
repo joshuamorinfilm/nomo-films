@@ -1,5 +1,5 @@
 	<!DOCTYPE html>
-	<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+	<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 	  <head>
 	  <!-- Global site tag (gtag.js) - Google Analytics -->
 	  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178925329-1"></script>
@@ -76,13 +76,20 @@
         	left:20px !important;
         	margin:-10px auto !important;
         }
-        
+        .aboutsection, .worksection {
+			margin-right: 1em !important;
+		}
+		.worksection ul a {
+			font-size: 1.5em !important;
+		}
       }
 
       @media (min-width: 992px) {
         .navbar-expand-lg .navbar-toggler {
             display: block;
         }
+	
+	/* image popup */
 	.hover_img a { position:relative; }
 	.hover_img a:hover span { display:block; }
       }
@@ -98,7 +105,7 @@
       	color: #C7BF6D;
       }
      
-      .worksection ul {
+      .worksection ul a {
       	list-style:none;
       	font-size: 1em; 
       }
@@ -111,26 +118,19 @@
   		white-space: normal;
   	}
   	
-  	.aboutsection ul {
+  	.contactsection ul {
       list-style:none;
       font-size:20px;
       }
-  	 
+	
+	.aboutsection, .worksection {
+		margin-right: 8em;
+	}
+	  	 
   	 .footer ul {
       	list-style:none;
       	color:white;
       }
-       
-    .text {
-    color: white;
-  	font-size: 20px;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-}	
-
-	section.bannervid {
-   }
 
 	/* Play button */
  	.bannervid:hover .play {
@@ -146,9 +146,9 @@
 	}  
 	.play img:hover {
     opacity: 1.0;
-    transition: opacity .25s ease-in;
-    -moz-transition: opacity .25s ease-in;
-    -webkit-transition: opacity .25s ease-in;
+    transition: opacity .15s ease-in;
+    -moz-transition: opacity .15s ease-in;
+    -webkit-transition: opacity .15s ease-in;
     }
     .play img {
    	width: 40px;
@@ -167,6 +167,9 @@
     left:100px;
     right:0px;
     z-index:3
+	}
+	iframe {
+		border: 0px;
 	}
 </style>
 
@@ -200,9 +203,8 @@
         </button>
       </h2>
     </div>
-
     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionMain">
-      <div class="card-body" style="margin-right: 10em;">
+      <div class="card-body aboutsection">
         <p style="margin-left: 30px; text-align:justify;">NOMO is a production studio that creates and shapes culture through cinematic films. We work on commercials, documentaries, music videos, and films. While our headquarters are based in New York and Toronto, we’ve worked on productions in over 50 countries. That's allowed us to develop a diverse creative team that spans the globe, which makes it easy to offer honest perspectives wherever a project touches down.</p>
       </div>
     </div>
@@ -215,8 +217,8 @@
         </button>
       </h2>
     </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionMain" id="work">
-      <div class="card-body worksection" style="margin-right: 10em;">
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionMain">
+      <div class="card-body worksection">
       <ul>
       <li><div class="hover_img"><a href="selectedworks/bayer">DJI&nbsp;/<span><img src="img/910426253.jpg" alt="image" height="200" /></span></a></div></li>
       <li><div class="hover_img"><a href="selectedworks/bayer">BAYER&nbsp;/<span><img src="img/903757949.jpg" alt="image" height="200" /></span></a></div></li>
@@ -234,7 +236,6 @@
       <li><div class="hover_img"><a href="selectedworks/ana">ANA&nbsp;/<span><img src="img/508088512.jpg" alt="image" height="200" /></span></a></div></li>   
       <li><div class="hover_img"><a href="selectedworks/kos">TUI<span><img src="img/673915384.jpg" alt="image" height="200" /></span></a></div></li>   
       </ul>
-        </button>
       </div>
     </div>
   </div>
@@ -247,21 +248,21 @@
       </h2>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionMain">
-      <div class="card-body aboutsection">
+      <div class="card-body contactsection">
       	
       	<div class="d-flex flex-wrap mx-auto">
       	<ul>
-      		<li><strong>Joshua Morin</strong><li/>
+      		<li><strong>Joshua Morin</strong></li>
       		<li>Founder</li>
 			<li>joshua@nomofilms.com</li>
 		</ul>
 		<ul>
-      		<li><strong>Blaze Nowara</strong><li/>
+      		<li><strong>Blaze Nowara</strong></li>
       		<li>Founder / Producer</li>
 			<li>blaze@nomofilms.com</li>
 		</ul>
 		<ul>
-      		<li><strong>Daniel Tal</strong><li/>
+      		<li><strong>Daniel Tal</strong></li>
       		<li>Creative Director</li>
 			<li>daniel@nomofilms.com</li>
 		</ul>
@@ -286,121 +287,134 @@
     	</div>
   		</nav>
   		<div data-aos="fade-right" data-aos-duration="3000">
- 		<section class="bannervid">
+ 		<div class="bannervid">
 			<img class="vi-lazyload-img" src="img/910496258.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/910496258?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>			
-		</section>
+			<iframe src='https://player.vimeo.com/video/910496258?background=1' allowFullScreen></iframe>			
+		</div>
 		
-		<section class="bannervid relative" id="dji" style="outline: 1px solid transparent;">
+		<div class="bannervid relative" id="dji">
 			<img class="vi-lazyload-img" src="img/910426253.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/910426253?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<iframe src='https://player.vimeo.com/video/910426253?background=1'   allowFullScreen></iframe>
 			<a href="selectedworks/dji" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<a href="selectedworks/dji"><img src="img/play-xxl.png" /></a>
+			<a href="selectedworks/dji"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle" data-aos="zoom-out-right">DJI</div>
-		</section>	
-		<section class="bannervid" id="bayer" style="outline: 1px solid transparent;">
+		</div>	
+		<div class="bannervid" id="bayer">
 			<img class="vi-lazyload-img" src="img/910458032.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/910458032?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<iframe src='https://player.vimeo.com/video/910458032?background=1'   allowFullScreen></iframe>
 			<a href="selectedworks/bayer" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<a href="selectedworks/bayer"><img src="img/play-xxl.png" /></a>
+			<a href="selectedworks/bayer"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle"  data-aos="zoom-out-right">BAYER</div>
-		</section>
-		<section class="bannervid" id="traveller" style="outline: 20px solid black;" >
-			<img class="vi-lazyload-img" src="img/910563209.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/910563209?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			<a href="selectedworks/thetraveller" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
-			<div class="play">
-			<a href="selectedworks/thetraveller"><img src="img/play-xxl.png" /></a>
-			</div>
-			<div class="videotitle"  data-aos="zoom-out-right">AL JAZEERA</div>
-		</section>			
-<!-- 		<section class="bannervid" id="pfizer" style="outline: 20px solid black;">
+		</div>
+		<div class="bannervid" id="pfizer" style="outline: 20px solid black;">
 			<img class="vi-lazyload-img" src="img/910471280.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/910471280?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<iframe src='https://player.vimeo.com/video/910471280?background=1'   allowFullScreen></iframe>
 			<a href="selectedworks/pfizer" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<a href="selectedworks/pfizer"><img src="img/play-xxl.png" /></a>
+			<a href="selectedworks/pfizer"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle"  data-aos="zoom-out-right">PFIZER</div>
-		</section>		 -->
-		<section class="bannervid" id="bbc" style="outline: 1px solid transparent;">
+		</div>		
+		<div class="bannervid" id="bbc">
 			<img class="vi-lazyload-img" src="img/910479946.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/910479946?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<iframe src='https://player.vimeo.com/video/910479946?background=1'   allowFullScreen></iframe>
 			<a href="selectedworks/bbcoctranspo" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<a href="selectedworks/bbcoctranspo"><img src="img/play-xxl.png" /></a>
+			<a href="selectedworks/bbcoctranspo"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle" data-aos="zoom-out-right">BBC</div>
-		</section>	
-		<section class="bannervid" id="care" style="outline: 1px solid transparent;">
+		</div>	
+		<div class="bannervid" id="care">
 			<img class="vi-lazyload-img" src="img/911638588.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/911638588?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<iframe src='https://player.vimeo.com/video/911638588?background=1'   allowFullScreen></iframe>
 			<a href="selectedworks/care" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<a href="selectedworks/care"><img src="img/play-xxl.png" /></a>
+			<a href="selectedworks/care"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle" data-aos="zoom-out-right">CARE</div>
-		</section>	
-		<section class="bannervid" id="panasonic" style="outline: 1px solid transparent;">
+		</div>	
+		<div class="bannervid" id="panasonic">
 			<img class="vi-lazyload-img" src="img/911852057.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/911852057?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<iframe src='https://player.vimeo.com/video/911852057?background=1'   allowFullScreen></iframe>
 			<a href="selectedworks/panasonic" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<a href="selectedworks/panasonic"><img src="img/play-xxl.png" /></a>
+			<a href="selectedworks/panasonic"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle" data-aos="zoom-out-right">PANASONIC &<BR /> OLYMPICS</div>
-		</section>	
-		<section class="bannervid" id="airstream" style="outline: 1px solid transparent;">
+		</div>
+		<div class="bannervid" id="traveller" >
+			<img class="vi-lazyload-img" src="img/910563209.jpg" alt="" />
+			<iframe src='https://player.vimeo.com/video/910563209?background=1'   allowFullScreen></iframe>
+			<a href="selectedworks/thetraveller" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
+			<div class="play">
+			<a href="selectedworks/thetraveller"><img src="img/play-xxl.png" alt="play button" /></a>
+			</div>
+			<div class="videotitle"  data-aos="zoom-out-right">AL JAZEERA</div>
+		</div>			
+	
+		<div class="bannervid" id="airstream">
 			<img class="vi-lazyload-img" src="img/911836444.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/911836444?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<iframe src='https://player.vimeo.com/video/911836444?background=1'   allowFullScreen></iframe>
 			<a href="selectedworks/airstream" style="position:absolute; top:0; left:0; display:inline-block; width:100%; height:100%; z-index:5;"></a>
 			<div class="play">
-			<a href="selectedworks/airstream"><img src="img/play-xxl.png" /></a>
+			<a href="selectedworks/airstream"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle" data-aos="zoom-out-right">AIRSTREAM</div>
-		</section>
+			<hr class="w-100"  data-aos="fade-right" style="border-color:white;" />
+		</div>
 		<!-- Footer -->
-		
-		<div class="container-fluid footer-wrapper pt-4 d-none d-lg-block">
-      		<div class="row footer footer-transition">
+
+      			
+		<div class="container-fluid pt-4 footer">
+
+      		<div class="row">
+      			<div class="d-lg-none" data-aos="fade-left" data-aos-duration="2000">
+				<ul class="allign-right pr-3">
+				<li style="font-size:1.5rem;">NOMO&nbsp;FILMS</li>
+				<li style="font-size:.75rem;">NOMO creates and shapes culture through cinematic pieces that span the worlds of commercials, documentaries, music videos, and films. We’re an emotions-first studio that defiantly pursues work the world wants to talk about.</li>
+				</ul>
+				</div>
       			<div class="col" data-aos="fade-right" data-aos-duration="2000">
 					<ul>
-      				<li><strong>Joshua Morin</strong><li/>
+      				<li><strong>Joshua Morin</strong></li>
       				<li>Founder</li>
 					<li>joshua@nomofilms.com</li>
 					</ul>
 				</div>
 				<div class="col" data-aos="fade-up">
 					<ul>
-      				<li><strong>Blaze Nowara</strong><li/>
+      				<li><strong>Blaze Nowara</strong></li>
       				<li>Founder / Producer</li>
 					<li>blaze@nomofilms.com</li>
 					</ul>
 				</div>
 				<div class="col" data-aos="fade-down">
 				<ul>
-      			<li><strong>Daniel Tal</strong><li/>
+      			<li><strong>Daniel Tal</strong></li>
       			<li>Creative Director</li>
 				<li>daniel@nomofilms.com</li>
 				</ul>
 				</div>
 				<div class="col-sm-auto"></div>
-				<div class="col-3" data-aos="fade-left" data-aos-duration="2000">
+				<div class="col-3 d-none d-lg-block" data-aos="fade-left" data-aos-duration="2000">
 				<ul class="allign-right pr-3">
 				<li class="text-right" style="font-size:1.5rem;">NOMO&nbsp;FILMS</li>
 				<li class="text-right" style="font-size:.75rem;">NOMO creates and shapes culture through cinematic pieces that span the worlds of commercials, documentaries, music videos, and films. We’re an emotions-first studio that defiantly pursues work the world wants to talk about.</li>
 				</ul>
 				</div>
+				</div>
+			<div class="text-center" >
+				<a href="http://vimeo.com/nomofilms">VIMEO</a>&nbsp;|
+      			<a href="http://youtube.com/nomofilms">YOUTUBE</a>&nbsp;|
+      			<a href="http://instagram.com/nomofilms">INSTAGRAM</a>&nbsp;|
+      			<a href="http://instagram.com/linkedin">LINKEDIN</a>
+			</div>
 		</div>
-		</div>
-		</div>
-		</div>
-		<div class="footer d-lg-none" style="padding-top:3em;">&nbsp;
-      	</div>
+		<div class="footer" style="padding-top:3em;">&nbsp;
       	</div>
 		<script src="vendor/popper/popper.min.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>

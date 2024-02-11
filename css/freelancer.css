@@ -4,18 +4,16 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 html {
-  	touch-action: pan-x pan-y;
-  	/*height: 100% */ 
-  	width:100%;
-  	max-width:100%;
-}
+  	/*touch-action: pan-x pan-y; */
+  	height: 100% 
+  	}
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden; 
   background: #000;
 /*   color: #18BC9C;  */
-    color: white;
+    color: black;
   }
 
 p {

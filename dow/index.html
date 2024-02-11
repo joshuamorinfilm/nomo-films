@@ -16,8 +16,9 @@
 		<meta name="description" content="NOMO Films - Telling stories that matter">
 		<meta name="author" content="NOMO Films">
 		<meta property="og:image" content="img/NOMOFILMS_Logo.png" />
+		<link href="../css/aos.css" rel="stylesheet">
 
-		<title>NOMO Films || Telling stories that matter</title>
+		<title>NOMO Films & DOW Diaries</title>
 
 		<!-- Bootstrap core CSS -->
 		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -50,8 +51,9 @@
 					display: flex; 
 					justify-content: center; 
 					align-items: center;
-					h1, h2, h3, h4 { 
+					h1, h2, h3, h4, h5 { 
 						color: white !important;
+						padding: 0;
 					}
 				}
 				.slide1 .overlay  {
@@ -70,19 +72,59 @@
 					
 				}
 				.slide2 {
+					h1 { 
+						text-align:center;
+						font-size: 10em;
+						padding-top:3em;
+						}
+					
 					height:40em;
 				}
+				.slide3 {
+					font-size:3em;
+					h1, h2, h3, h4 { 
+						text-align: center;
+					}
+					h2 {
+						font-size:6em;				
+					}
+				}
+				
 				.slide4 {
 					height:40em;
 					h1, h2, h3, h4 { 
-						text-align: left;
+						text-align: unset;
 					}
 					h3 {
 					 font-size:5em;
-					 
 					 }
+					 p {
+					 	font-size:.8em;
+					 }
+					h5 {
+						font-size: 1.5em;
+					}
 				}
-				
+				.slide5 {
+					h1 {
+						font-size:10em;
+					}
+				}
+				.slide6 {
+					height:40em;
+					h1, h2, h3, h4 { 
+						text-align: unset;
+					}
+					h3 {
+					 font-size:5em;
+					 }
+					 p {
+					 	font-size:.8em;
+					 }
+					h5 {
+						font-size: 1.5em;
+					}
+				}
 				.slide7 {
 					h1, h2, h3, h4 { 
 						text-align: center;
@@ -92,6 +134,24 @@
 					 
 					 }
 				}
+				.slide8 {
+					height:40em;
+					h1, h2, h3, h4 { 
+						text-align: unset;
+					}
+					h1 {
+						font-size:4em;
+					}
+					h3 {
+					 font-size:5em;
+					 }
+					 p {
+					 	font-size:.8em;
+					 }
+					h5 {
+						font-size: 1.5em;
+					}
+				}
 				
 				
 				
@@ -99,61 +159,109 @@
 </head>		
 		
 <body id="page-top">
- 	<section class="bannervid position-relative slides slide1">
+ 		<section class="bannervid slides slide1">
  			<img class="vi-lazyload-img" src="img/910969169.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910969169?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>			
- 			<div class="overlay">
-
- 					<h2>DOW DIARIES</h4>
- 					<h4>DEMYSTIFYING<br />BUILDING TRUST<br />EMPOWERING<br /></h4>
- 					<h3>THROUGH EMOTIONAL STORIES</h3>
- 				
-
+			<div class="container-fluid pt-3 overlay">
+      		<div class="row" data-aos="fade-up"><div class="col align-self-center"><h2>DOW DIARIES</h2></div></div>
+      		<div class="row align-center" data-aos="fade-right"><div class="col align-self-center"><h4>DEMYSTIFYING<br />BUILDING TRUST<br />EMPOWERING<br /></h4></div></div>
+      		<div class="row align-center" data-aos="fade-down" data-aos-duration="2000"><div class="col align-self-center"><h3>THROUGH EMOTIONAL STORIES</h3></div></div>
+    		</div>
     		</div>
 		</section>
  		<section class="slides slide2" >
- 				<img class="vi-lazyload-img" src="img/2.jpg" alt="" />
-<!--  						<h1 class="text-white text-center" style="font-size:9rem;">STORIES OVER<br />NUMBERS</h1> -->
+			<div class="container-fluid pt-5 overlay">
+      		<div class="row"><div class="col align-self-center"><h1>STORIES OVER<br />NUMBERS</h1></div></div>
+      		</div>
 		</section>
- 		<section class="bannervid position-relative slide3">
+ 		<section class="bannervid slides slide3">
  			<img class="vi-lazyload-img" src="img/799239799.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/911294405?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>			
  			<div class="overlay">
  				<span class="text-center">
- 					<h3 class="text-white" style="font-size:3em;">PRESENTED BY <br />NOMO FILMS<h3> 	
+ 					<h3 data-aos="fade-down-right">PRESENTED BY</h3>
+ 					<h3 data-aos="fade-up-left" data-aos-duration="2000">NOMO FILMS<h3> 	
  				</span>
     		</div>
 		</section>		
- 		<section class="bannervid position-relative slides slide4">		
-	 		<img class="vi-lazyload-img" src="img/4.jpg" alt="" />
+ 		<section class="bannervid  slides slide4">		
+<!-- 	 		<img class="vi-lazyload-img" src="img/4.jpg" alt="" /> -->
+			<img src="img/slide4icon.png" width="100px;"	 />
+			<div class="container overlay">
+      		<div class="row ml-5 mr-5" data-aos="fade-up" data-aos-duration="1000">
+      			<div class="col col-2"><h1>PROPOSAL</h1></div>
+      			<div class="col-auto text-center">&nbsp;</div>
+      			<div class="col col-2 text-right">&nbsp;</div>
+      		</div>
+      		<div class="row ml-5 mr-5" data-aos="fade-up" data-aos-duration="1000">
+      			<div class="col-5"><p>There’s nothing wrong with videos exploring massive amounts of data, systems and academic language…as long as they’re being played at a conference full of experts and analysts. </p></div>
+      			<div class="col text-center"></div>
+      			<div class="col-5 text-right"><p>Thing is, boilerplate talking points that are paired with infographics and stock footage can make people feel alienated, or even worse: bored. So if the goal is to get a person to roll up their sleeves and get involved, you have to activate their imagination. </p></div>
+      		</div>
+      		<div class="row ml-5 mr-5" data-aos="fade-right" data-aos-duration="1500">
+      			<div class="col-5 "><h5>BUT WHAT ABOUT EVERYONE ELSE</h5><p>If a person scrolls into a video that starts with “At DOW we believe in sus-” oh!<br />
+					Sorry to cut that sentence off but they’ve already scrolled past it.</p></div>
+      			<div class="col text-center">&nbsp;</div>
+      			<div class="col-5  text-right"><p>Thing is, boilerplate talking points that are paired with infographics and stock footage can make people feel alienated, or even worse: bored. So if the goal is to get a person to roll up their sleeves and get involved, you have to activate their imagination. </p></div>
+      		</div>
+      		<div class="row ml-5 mr-5" data-aos="fade-up" data-aos-duration="500">
+      			<div class="col-5 "></div>
+      			<div class="col text-center">&nbsp;</div>
+      			<div class="col-5 text-right"><p>What if they land on a beautifully framed moment in time, where an inciting incident is happening to a person that looks like them, in a place that looks like home…well they’re gonna want to know what happens next. That’s the power of a great visual story. </p></div>
+      		</div>    
 		</section>				
- 		<section class="bannervid position-relative slides slide5">		
+
+ 		<section class="bannervid slides slide5">		
 	 		<img class="vi-lazyload-img" src="img/5.jpg" alt="" />
 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	
 			<div class="overlay">
  				<span class="text-center">
- 					<h1 class="text-white" style="font-size:10em;">WHO&nbsp;IS&nbsp;NOMO<h1> 	
+ 					<h1>WHO&nbsp;IS&nbsp;NOMO<h1> 	
  				</span>
     		</div>
 		</section>	
-
- 		<section class="bannervid position-relative slides slide6">		
-	 		<img class="vi-lazyload-img" src="img/6.jpg" alt="" />
-	 	</section>	
-		
- 		<section class="bannervid position-relative slides slide7">		
+ 		<section class="bannervid  slides slide6">		
+			<img src="img/slide6icon.png" width="100px;" data-aos="flip-left" data-aos-duration="3000" />
+			<div class="container overlay">
+      		<div class="row align-items-center ml-5 mr-5" data-aos="fade-up" data-aos-duration="1000">
+      			<div class="col col-5">
+      			<h1>A BIT ABOUT US</h1>
+      			<p>NOMO creates and shapes culture through cinematic pieces that span the worlds of commercials, documentaries, music videos, and films. We’re an emotions-first studio that defiantly pursues work the world wants to talk about. </p>
+      			
+      			<p>Capturing visually stunning shots that evoke emotion is our specialty. With headquarters in New York and Toronto, we’ve produced projects in over 50 countries, refining a roster of diverse creators across the globe. </p>
+      			</div>
+      			<div class="col-2 text-center">&nbsp;</div>
+      			<div class="col col-5 text-right"><h4>At NOMO, we uphold the best and most visually refined stories that resonate deeply and evoke actual feelings.</h4></div>
+      		</div>
+		</section>		
+ 		<section class="bannervid slides slide7">		
 	 		<img class="vi-lazyload-img" src="img/7.jpg" alt="" />
 	 		<iframe src='https://player.vimeo.com/video/911295368?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	
 			<div class="overlay">
  				<span class="text-center">
- 					<h1 class="text-white" style="font-size:14em;">WHAT<br />WE'RE<br />THINKING<h1> 	
+ 					<h1 class="text-white" style="font-size:10em;">WHAT<br />WE'RE<br />THINKING<h1> 	
  				</span>
     		</div>
 		</section>
- 		<section class="bannervid position-relative slides slide7">		
-	 		<img class="vi-lazyload-img" src="img/8.jpg" alt="" />
-<!-- 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	 -->
-		</section>
+ 		<section class="bannervid slides slide8">		
+			<img src="img/slide8icon.png" width="80px;" data-aos="flip-left" data-aos-duration="3000"	 />
+			<div class="container overlay">
+      		<div class="row align-items-center ml-5 mr-5" data-aos="fade-up" data-aos-duration="1000">
+      			<div class="col col-5">
+      			<h2>THE CONCEPT</h2>
+      			<p>Through a series of short emotive stories, NOMO will highlight three core sustainability challenges that inspire the viewer to get involved.</p>
+      			<h2>CORE<br/>CHALLENGES</h2>
+      			<p>1. Demystifying recycling<br />2. Building trust<br />3. Empowering the individual</p>
+      			<h2>THE STORIES</h2>
+      			<p>In order to cast as wide a net as possible it’s crucial to diversify stories, settings and cast. In order to do that, we’ll create three short videos for each of the three Core Challenges. That’s 9 videos total. </p>
+      			<br />
+      			</div>
+      			<div class="col-2 text-center">&nbsp;</div>
+      			<div class="col col-5 text-right"><h1>3 CHALLENGES</h1><h1>9 STORIES</h1><h1>1 MESSAGE</h1></div>
+      		</div>
+		</section>	
+
+
  		<section class="bannervid position-relative slides slide7">		
 	 		<img class="vi-lazyload-img" src="img/9.jpg" alt="" />
 <!-- 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	 -->
@@ -179,32 +287,25 @@
 <!-- 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	 -->
 		</section>
 
-
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF8HlC0mBs&#x2F;dcVsgq80ciFyh-0poLL-5Q&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF8HlC0mBs&#x2F;dcVsgq80ciFyh-0poLL-5Q&#x2F;view?utm_content=DAF8HlC0mBs&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">DOW Web Pitch</a> by Daniel Tal
-
-
-
 		<!-- Footer -->
 		<div id="footer"></div>
 
-		<script src="vendor/popper/popper.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
+		<script src="../vendor/popper/popper.min.js"></script>
+		<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="../js/aos.js"></script>
+		
+		
+		<script>
+  		AOS.init();
+  		</script>
 		<!-- Plugin JavaScript -->
-		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+		<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
 
 		<!-- Custom scripts for this template -->
-		<script src="js/freelancer.js"></script>
+		<script src="../js/freelancer.js"></script>
 
 		<!-- Vimeo lazy loader -->
-		<script src="js/vi-lazyload.js"></script>
+		<script src="../js/vi-lazyload.js"></script>
 	  </body>
 
 	</html>

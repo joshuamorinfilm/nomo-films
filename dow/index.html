@@ -51,131 +51,83 @@
 					display: flex;
 					justify-content: center;
 					align-items: center;
-					h1, h2, h3, h4, h5 {
-						color: white !important;
-						padding: 0;
-					}
+					h1, h2, h3, h4, h5 { color: white !important; padding: 0; }
 					color:white !important;
 				}
 				.slide1 .overlay  {
-					h1, h2, h3, h4 {
-						text-align: center;
-					}
-					h2 {
-						font-size:6em;
-					}
-					h3 {
-						font-size:3em;
-					}
-					h4 {
-						font-size:2em;
-					}
-					
+					h1, h2, h3, h4 { text-align: center; }
+					h2 { font-size:6em; }
+					h3 { font-size:3em; }
+					h4 { font-size:2em; }
 				}
 				.slide2 {
 					height:50em;
-					h1 {
-						text-align:center;
-						font-size: 10em;
-						}
+					h1 { text-align:center; font-size: 10em; }
 				}
 				.slide3 {
 					font-size:3em;
-					h1, h2, h3, h4 {
-						text-align: center;
-					}
-					h2 {
-						font-size:6em;
-					}
+					h1, h2, h3, h4 { text-align: center; }
+					h2 { font-size:6em; }
 				}
-				
 				.slide4 {
 					height:40em;
-					h1, h2, h3, h4 {
-						text-align: unset;
-					}
-					h3 {
-					 font-size:5em;
-					 }
-					 p {
-					 	font-size:.8em;
-					 }
-					h5 {
-						font-size: 1.5em;
-					}
+					h1, h2, h3, h4 { text-align: unset; }
+					h3 { font-size:5em; }
+					 p { font-size:.8em; }
+					h5 { font-size: 1.5em; }
 				}
 				.slide5 {
-					h1 {
-						font-size:10em;
-					}
+					h1 { font-size:10em; }
 				}
 				.slide6 {
 					height:40em;
-					h1, h2, h3, h4 {
-						text-align: unset;
-					}
-					h3 {
-					 font-size:5em;
-					 }
-					 p {
-					 	font-size:.8em;
-					 }
-					h5 {
-						font-size: 1.5em;
-					}
+					h1, h2, h3, h4 { text-align: unset; }
+					h3 { font-size:5em; }
+					 p { font-size:.8em; }
+					h5 { font-size: 1.5em; }
 				}
 				.slide7 {
-					h1, h2, h3, h4 {
-						text-align: center;
-					}
-					h1{
-						font-size:8em;
-					}
-					h3 {
-					 font-size:5em;
-					 }
+					h1, h2, h3, h4 { text-align: center; }
+					h1{ font-size:8em; }
+					h3 { font-size:5em; }
 				}
 				.slide8, .slide9, .slide11, .slide13, .slide15{
 					height:50em;
 					h1, h2, h3, h4 {
 						text-align: unset;
 					}
-					h1 {
-						font-size:5em;
-					}
-					h3 {
-					 font-size:3em;
-					 }
-					 p {
-					 	font-size:.8em;
-					 }
-					h5 {
-						font-size: 1.5em;
-					}
+					h1 { font-size:5em; }
+					h3 { font-size:3em; }
+					h5 { font-size: 1.5em; }
+					p { font-size:.8em; }
 				}
-				.slide11 {
-					height:80em;
-					
-					.vertical-title {
-						writing-mode: vertical-rl;
-						text-orientation: mixed;
-					}
-				}
-				.slide13 {
-					height:40em;
-				}
+				.slide10 { h1 { font-size: 10em; } }
+				.slide11 { height:80em; }
+				.slide12 { h1 { font-size: 10em; } }
+				.slide13 { height:40em; }
 				.slide15 {
 					height:20em;
-					ul {
-						list-style:none;
-      					font-size:.9em;
-      					padding:0;
-      				}
+					ul { list-style:none; font-size:.9em; padding:0; }
 				}
 				
+				@media only screen and (max-width: 576px) {
+					.slide1 .overlay  { h2 { font-size:3em; } h3 { font-size:1.5em; } h4 { font-size:1em; } }
+					.slide2 { height:30em; h1 { text-align:center; font-size: 4em; } }
+					.slide3 { h3 { font-size:.75em; } }
+					.slide4 { height:50em; h3 { font-size:3em; } h5 { font-size: 1em; } p { font-size:.8em; } }
+					.slide5 { h1 { font-size:4em; } }
+					.slide6 { img { width:70px; }  }
+					.slide7 { h1{ font-size:3em; } }
+					.slide8, .slide9, .slide11, .slide13, .slide15 { height:40em; h1 { font-size:2.5em; } h3 { font-size:1em; } h5 { font-size: .75em; } p { font-size:.8em; } img { width:50px; } }
+					.slide9 { height:80em; }
+					.slide10, .slide12, .slide14 { h1 {font-size:3em;} }
+					.slide11 { height: 80em;}
+					.slide15 {height: 30em;}
+				}
 		hr {
 			border-color: white;
 		}
+		.vertical-title { writing-mode: vertical-rl; text-orientation: mixed; }
 					
 		.vi-lazyload-img {
 			opacity: 0;
@@ -345,7 +297,7 @@
 	 		<iframe src='https://player.vimeo.com/video/911296330?background=1' frameborder='0'   allowFullScreen></iframe>
 			<div class="overlay">
  				<span class="text-center">
- 					<h1 class="text-white" style="font-size:10em;">CASE<br />STUDIES</h1>
+ 					<h1 class="text-white">CASE<br />STUDIES</h1>
  				</span>
     		</div>
     	</section>
@@ -401,12 +353,12 @@
 		</section>
  		
  		
- 		<section class="bannervid slides slide7">
-	 		<img class="vi-lazyload-img" src="img/7.jpg" alt="" />
+ 		<section class="bannervid slides slide12">
+	 		<img class="vi-lazyload-img" src="img/12.jpg" alt="" />
 	 		<iframe src='https://player.vimeo.com/video/911294421?background=1' frameborder='0'   allowFullScreen></iframe>
 			<div class="overlay">
  				<span class="text-center">
- 					<h1 class="text-white" style="font-size:10em;">FINAL<br />THOUGHTS<h1>
+ 					<h1 class="text-white">FINAL<br />THOUGHTS<h1>
  				</span>
     		</div>
 		</section>
@@ -433,7 +385,7 @@
 	 		<iframe src='https://player.vimeo.com/video/911294393?background=1' frameborder='0'   allowFullScreen></iframe>
 			<div class="overlay">
 	 				<span class="text-center">
-	 					<h1 class="text-white" style="font-size:10em;">THANK YOU</h1>
+	 					<h1 class="text-white">THANK YOU</h1>
 	 				</span>
 			</div>
 		</section>

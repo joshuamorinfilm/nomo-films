@@ -60,8 +60,9 @@
       }
 
       #navbarSupportedContent a {
-        padding: 4px;   
+        padding: 4px;
         text-decoration: none;
+        padding-left:0;
         color: white;
         display: block;
         transition: 0.3s;
@@ -69,7 +70,7 @@
       
       #navbarSupportedContent .worksection a {
         font-size: 36px;
-        }      	
+        }
 
 
 	@media (max-width: 991px) {
@@ -79,13 +80,13 @@
         	margin:-10px auto !important;
         }
         .aboutsection, .worksection {
-  			margin-right: 0 !important; 
+  			margin-right: 0 !important;
 		}
 		.worksection ul a {
 			font-size: 1.5em !important;
 		}
 		.videotitle-twolines {
-      	    margin:-24px auto !important; 
+      	    margin:-24px auto !important;
       	}
 		 .navbar-expand-md .navbar-nav {
     		-ms-flex-direction: row;
@@ -104,11 +105,11 @@
 		.hover_img a:hover span { display:block; }
       	
       	.videotitle-twolines {
-      	    margin:-72px auto !important; 
+      	    margin:-72px auto !important;
       	}
       }
       
-	.hover_img a span { position:absolute; display:none; z-index:99; }      
+	.hover_img a span { position:absolute; display:none; z-index:99; }
        .dropdown  {
       		background-color: transparent;
            	color:white;
@@ -117,8 +118,6 @@
             display: block;
         }
 	
-      
-      
       .dropdown button {
       	font-size: 80px;
       	color: #C7BF6D;
@@ -126,7 +125,7 @@
      
       .worksection ul a {
       	list-style:none;
-      	font-size: 1em; 
+      	font-size: 1em;
       }
       
       .worksection li, span {
@@ -150,20 +149,26 @@
       	list-style:none;
       	color:white;
       }
+      .footer a {
+        text-decoration: none;
+        padding-left:0;
+        color: white;
+        transition: 0.3s;
+      }
 
 	/* Play button */
  	.bannervid:hover .play {
-	display:block; 
+	display:block;
 	}
 	.play {
   	position : absolute;
-    top:50%; 
+    top:50%;
     width:40px;
-    margin:-20px auto; 
+    margin:-20px auto;
     left:0px;
     right:0px;
     z-index:100
-	}  
+	}
 	.play img:hover {
     opacity: 1.0;
     transition: opacity .15s ease-in;
@@ -182,8 +187,8 @@
 	color: white;
 	font-size: 3em;
 	position : absolute;
-    top:50%; 
-    margin:-40px auto; 
+    top:50%;
+    margin:-40px auto;
     left:100px;
     right:0px;
     z-index:3
@@ -193,7 +198,7 @@
 	}
 /* 	.vi-lazyload-img {
 		opacity: 0;
-	}*/ 
+	}*/
 </style>
 
 <script>
@@ -206,10 +211,10 @@
 
 
 /* $(document).ready(function() {
-   setTimeout(function(){ 
-   		$("#welcome").hide(); 
+   setTimeout(function(){
+   		$("#welcome").hide();
    }, 3000);
-$('#mainvideos').delay(1000).fadeOut(300); 
+$('#mainvideos').delay(1000).fadeOut(300);
 
 });
 $('#mainvideos').delay(1000).fadeOut(300);  */
@@ -218,15 +223,10 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 
 
 </script>
-</head>		
+</head>
 		
 	  <body id="page-top">
-<!-- 		<div class="name-wrapper">
-  		<span id="welcome" class="usermain-name" data-toggle="tooltip" data-placement="top" title="I will appear only once" >     
-        	NOMO FILMS    		
-        </span>
-		</div> -->
-	<div data-aos="fade-right" data-aos-duration="2000">
+<!-- 	<div data-aos="fade-right" data-aos-duration="2000"> -->
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
    		<button class="navbar-toggler navbar-toggler-right border-0 " type="button" onclick="openNav()">
       	<span class="navbar-toggler-icon"></span>
@@ -270,11 +270,11 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
       <li><div class="hover_img"><a href="selectedworks/colgate">COLGATE&nbsp;/<span><img src="img/566085048.jpg" alt="image" height="200" /></span></a></div></li>
       <li><div class="hover_img"><a href="selectedworks/panasonic">PANASONIC & OLYMPICS&nbsp;/<span><img src="img/911852057.jpg" alt="image" height="200" /></span></a></div></li>
       <li><div class="hover_img"><a href="selectedworks/bbcsoynina">BBC & SOY NIÑA&nbsp;/<span><img src="img/799239799.jpg" alt="image" height="200" /></span></a></div></li>
-      <li><div class="hover_img"><a href="selectedworks/ibeliv">IBELIV&nbsp;/<span><img src="img/651290668.jpg" alt="image" height="200" /></span></a></div></li>   
-      <li><div class="hover_img"><a href="selectedworks/alliance">ALLIANCE TO END PLASTIC WASTE&nbsp;/<span><img src="img/420010925.jpg" alt="image" height="200" /></span></a></div></li>   
-      <li><div class="hover_img"><a href="selectedworks/alz">ALZHEIMERS&nbsp;/<span><img src="img/503833102.jpg" alt="image" height="200" /></span></a></div></li>   
-      <li><div class="hover_img"><a href="selectedworks/ana">ANA&nbsp;/<span><img src="img/508088512.jpg" alt="image" height="200" /></span></a></div></li>   
-      <li><div class="hover_img"><a href="selectedworks/kos">TUI<span><img src="img/673915384.jpg" alt="image" height="200" /></span></a></div></li>   
+      <li><div class="hover_img"><a href="selectedworks/ibeliv">IBELIV&nbsp;/<span><img src="img/651290668.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/alliance">ALLIANCE TO END PLASTIC WASTE&nbsp;/<span><img src="img/420010925.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/alz">ALZHEIMERS&nbsp;/<span><img src="img/503833102.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/ana">ANA&nbsp;/<span><img src="img/508088512.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="selectedworks/kos">TUI<span><img src="img/673915384.jpg" alt="image" height="200" /></span></a></div></li>
       </ul>
       </div>
     </div>
@@ -323,12 +323,12 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
       	</div>
    		</div>
   		</div>
-		</div>	
+		</div>
     	</div>
   		</nav>
  		<div class="bannervid">
 			<img class="vi-lazyload-img" src="img/910496258.jpg" alt="" />
-			<iframe src='https://player.vimeo.com/video/910496258?background=1' allowFullScreen></iframe>			
+			<iframe src='https://player.vimeo.com/video/910496258?background=1' allowFullScreen></iframe>
 		</div>
 		
 		<div class="bannervid" id="dji">
@@ -339,7 +339,7 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 			<a href="selectedworks/dji"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle" data-aos="zoom-out-right">DJI</div>
-		</div>	
+		</div>
 		<div class="bannervid" id="bayer">
 			<img class="vi-lazyload-img" src="img/910458032.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910458032?background=1' allowFullScreen></iframe>
@@ -357,7 +357,7 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 			<a href="selectedworks/pfizer"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle"  data-aos="zoom-out-right">PFIZER</div>
-		</div>		
+		</div>
 		<div class="bannervid" id="bbc">
 			<img class="vi-lazyload-img" src="img/910479946.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/910479946?background=1'   allowFullScreen></iframe>
@@ -366,7 +366,7 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 			<a href="selectedworks/bbcoctranspo"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle" data-aos="zoom-out-right">BBC</div>
-		</div>	
+		</div>
 		<div class="bannervid" id="care">
 			<img class="vi-lazyload-img" src="img/911638588.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/911638588?background=1'   allowFullScreen></iframe>
@@ -375,7 +375,7 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 			<a href="selectedworks/care"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle" data-aos="zoom-out-right">CARE</div>
-		</div>	
+		</div>
 		<div class="bannervid" id="panasonic">
 			<img class="vi-lazyload-img" src="img/911852057.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/911852057?background=1'   allowFullScreen></iframe>
@@ -393,7 +393,7 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 			<a href="selectedworks/thetraveller"><img src="img/play-xxl.png" alt="play button" /></a>
 			</div>
 			<div class="videotitle"  data-aos="zoom-out-right">AL JAZEERA</div>
-		</div>			
+		</div>
 		<div class="bannervid" id="airstream">
 			<img class="vi-lazyload-img" src="img/911836444.jpg" alt="" />
 			<iframe src='https://player.vimeo.com/video/911836444?background=1'   allowFullScreen></iframe>
@@ -409,27 +409,27 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 		<div class="container-fluid pt-4 footer">
 
       		<div class="row">
-      			<div class="d-lg-none" data-aos="fade-bottom" data-aos-duration="2000">
+      			<div class="d-lg-none">
 				<ul class="allign-right pr-3">
 				<li style="font-size:1.5rem;">NOMO&nbsp;FILMS</li>
 				<li style="font-size:.75rem;">NOMO creates and shapes culture through cinematic pieces that span the worlds of commercials, documentaries, music videos, and films. We’re an emotions-first studio that defiantly pursues work the world wants to talk about.</li>
 				</ul>
 				</div>
-      			<div class="col" data-aos="fade-right" data-aos-duration="2000">
+      			<div class="col">
 					<ul>
       				<li><strong>Joshua Morin</strong></li>
       				<li>Founder</li>
 					<li><a href="mailto:joshua@nomofilms.com" target="_blank">joshua@nomofilms.com</a></li>
 					</ul>
 				</div>
-				<div class="col" data-aos="fade-up">
+				<div class="col">
 					<ul>
       				<li><strong>Blaze Nowara</strong></li>
       				<li>Founder / Producer</li>
 					<li><a href="mailto:blaze@nomofilms.com" target="_blank">blaze@nomofilms.com</a></li>
 					</ul>
 				</div>
-				<div class="col" data-aos="fade-down">
+				<div class="col">
 				<ul>
       			<li><strong>Daniel Tal</strong></li>
       			<li>Creative Director</li>
@@ -437,7 +437,7 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 				</ul>
 				</div>
 				<div class="col-sm-auto"></div>
-				<div class="col-3 d-none d-lg-block" data-aos="fade-bottom" data-aos-duration="2000">
+				<div class="col-3 d-none d-lg-block">
 				<ul class="allign-right pr-3">
 				<li class="text-right" style="font-size:1.5rem;">NOMO&nbsp;FILMS</li>
 				<li class="text-right" style="font-size:.75rem;">NOMO creates and shapes culture through cinematic pieces that span the worlds of commercials, documentaries, music videos, and films. We’re an emotions-first studio that defiantly pursues work the world wants to talk about.</li>
@@ -453,7 +453,7 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 		</div>
 		<div class="footer" style="padding-top:3em;">&nbsp;
       	</div>
-	</div>
+<!-- 	</div> -->
 		
 		
 			<!-- Bootstrap core JavaScript -->

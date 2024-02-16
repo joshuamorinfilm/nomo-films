@@ -1,5 +1,5 @@
 /*!
- * Vimeo LazyLoad 
+ * Vimeo LazyLoad
  * v1.0.2
  * https://github.com/the-muda-organization/vimeo-lazyload
  * MIT License

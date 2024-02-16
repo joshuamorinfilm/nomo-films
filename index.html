@@ -93,6 +93,10 @@
     		flex-direction: row;
     		flex-wrap: wrap;
 		}
+		h2.dropdown button {
+      	font-size: 60px !important;
+		}
+		
       }
 
       @media (min-width: 992px) {
@@ -118,7 +122,7 @@
             display: block;
         }
 	
-      .dropdown button {
+      h2.dropdown button {
       	font-size: 80px;
       	color: #C7BF6D;
       }
@@ -145,16 +149,19 @@
 		margin-right: 8em;
 	}
 	  	 
-  	 .footer ul {
-      	list-style:none;
-      	color:white;
-      }
-      .footer a {
-        text-decoration: none;
-        padding-left:0;
-        color: white;
-        transition: 0.3s;
-      }
+	.footer ul {
+	list-style:none;
+	color:white;
+	}
+	.footer a {
+	text-decoration: none;
+	padding-left:0;
+	color: white;
+	transition: 0.3s;
+	}
+	.people {
+		padding-left:24px;
+	}
 
 	/* Play button */
  	.bannervid:hover .play {
@@ -226,7 +233,6 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 </head>
 		
 	  <body id="page-top">
-<!-- 	<div data-aos="fade-right" data-aos-duration="2000"> -->
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
    		<button class="navbar-toggler navbar-toggler-right border-0 " type="button" onclick="openNav()">
       	<span class="navbar-toggler-icon"></span>
@@ -251,7 +257,7 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
   		</div>
   		<div class="card bg-transparent">
     	<div class="card-header" id="headingTwo">
-      	<h2 class="">
+      	<h2 class="dropdown">
         <button class="btn dropdown collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
           WORK
         </button>
@@ -282,7 +288,7 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
   </div>
   <div class="card bg-transparent">
     <div class="card-header" id="headingThree">
-      <h2 class="mb-0">
+      <h2 class="dropdown">
         <button class="btn dropdown collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           CONTACT
         </button>
@@ -426,21 +432,21 @@ $('#mainvideos').delay(1000).fadeOut(300);  */
 				</ul>
 				</div>
       			<div class="col">
-					<ul>
+					<ul class="people">
       				<li><strong>Joshua Morin</strong></li>
-      				<li>Founder</li>
+      				<li>Partner</li>
 					<li><a href="mailto:joshua@nomofilms.com" target="_blank">joshua@nomofilms.com</a></li>
 					</ul>
 				</div>
 				<div class="col">
-					<ul>
+					<ul class="people">
       				<li><strong>Blaze Nowara</strong></li>
-      				<li>Founder / Producer</li>
+      				<li>Partner / Producer</li>
 					<li><a href="mailto:blaze@nomofilms.com" target="_blank">blaze@nomofilms.com</a></li>
 					</ul>
 				</div>
 				<div class="col">
-				<ul>
+				<ul class="people">
       			<li><strong>Daniel Tal</strong></li>
       			<li>Creative Director</li>
 				<li><a href="mailto:daniel@nomofilms.com" target="_blank">daniel@nomofilms.com</a></li>

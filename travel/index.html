@@ -20,7 +20,7 @@
 		<meta property="og:image" content="../img/NOMOFILMS_Logo.png" />
 		<link href="../css/aos.css" rel="stylesheet">
 	
-		<title>NOMO Films || Travel and Fashion</title>
+		<title>NOMO Films || Travel</title>
 
 		<!-- Bootstrap core CSS -->
 		<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,22 +37,111 @@
 		<link href="../css/full-slider.css" rel="stylesheet">
 		<link href="../css/vi-lazyload.css" rel="stylesheet">
 		<script src="../vendor/jquery/jquery.min.js"></script>
-
+		<script>
+		function openNav() {
+		 document.getElementById("navbarSupportedContent").style.height = "100%";
+		}
+		function closeNav() {
+		  document.getElementById("navbarSupportedContent").style.height = "0%";
+		}
+		
+		</script>
+	</head>
 
 	  <body id="page-top">
 
-		<div id="header"></div>
+	<body id="page-top">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+   		<button class="navbar-toggler navbar-toggler-right border-0 " type="button" onclick="openNav()">
+      	<span class="navbar-toggler-icon"></span>
+    	</button>
+    	<div class="" id="navbarSupportedContent">
+      	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	<div class="accordion dropdown" id="accordionMain">
+  		<div class="card bg-transparent">
+    		<div class="card-header" id="headingOne">
+      		<h2 class="dropdown">
+        	<button class="btn dropdown" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          	ABOUT
+        	</button>
+      		</h2>
+    		</div>
+    		<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionMain">
+      		<div class="card-body aboutsection">
+        		<p style="text-align:justify;">NOMO creates and shapes emotion through cinematic commercials, documentaries, music videos, and films. We're a sleeves-up studio that defiantly pursues work the world wants to talk about. Our headquarters are based in New York and Toronto and our remote creative team spans the globe, enabling us to produce works in over 50 countries to date.</p>
+      		</div>
+    		</div>
+  		</div>
+  		<div class="card bg-transparent">
+    	<div class="card-header" id="headingTwo">
+      	<h2 class="dropdown">
+        <button class="btn dropdown collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
+          WORK
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionMain">
+      <div class="card-body worksection">
+      <ul>
+     <li><div class="hover_img"><a href="airstream">VISIT NORTH CAROLINA&nbsp;/<span><img src="img/airstream.jpg" alt="image" height="200" /></span></a></div></li>
+      <li><div class="hover_img"><a href="kos">TUI-KOS&nbsp;/<span><img src="img/kos.jpg" alt="image" height="200" /></span></a></div></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-transparent">
+    <div class="card-header" id="headingThree">
+      <h2 class="dropdown">
+        <button class="btn dropdown collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          CONTACT
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionMain">
+      <div class="card-body contactsection">
+      	
+      	<div class="d-flex flex-wrap mx-auto">
+      	<ul>
+      		<li><strong>Joshua Morin</strong></li>
+      		<li>Founder</li>
+			<li><a href="mailto:joshua@nomofilms.com" target="_blank">joshua@nomofilms.com</a></li>
+		</ul>
+		<ul>
+      		<li><strong>Blaze Nowara</strong></li>
+      		<li>Founder / Producer</li>
+			<li><a href="mailto:blaze@nomofilms.com" target="_blank">blaze@nomofilms.com</a></li>
+		</ul>
+		<ul>
+      		<li><strong>Daniel Tal</strong></li>
+      		<li>Creative Director</li>
+			<li><a href="mailto:daniel@nomofilms.com" target="_blank">daniel@nomofilms.com</a></li>
+		</ul>
+		</div>
+		<br />
+		<div class="d-flex">
+		<ul>
+			<li><strong>New York</strong></li>
+			<li>307 West Shore Road</li>
+			<li>Huntington NY, 11743</li>
+		</ul>
+		<ul>
+			<li><strong>Toronto</strong></li>
+			<li>250 Rushton Rd,</li>
+			<li>Toronto ON, M6G 3J5</li>
+		</ul>
+		</div>
+      	</div>
+   		</div>
+  		</div>
+		</div>
+    	</div>
+  		</nav>
+	
 		<section class="commercial">
 
 			<div class="row">
-				<div class="col-sm-6 p-1">
-					<a href="gocuba"><img class="img-fluid" src="img/gocuba.jpg" alt=""></a>
-					<div class="index-item-text-wrapper">
-					<h2 class="index-item-title">
-						<span class="index-item-title-text">GO CUBA</span>
-					</h2>
-					</div>
-				</div>
+
 				<div class="col-sm-6 p-1">
 					<a href="airstream"><img class="img-fluid" src="img/airstream.jpg" alt=""></a>
 					<div class="index-item-text-wrapper">
@@ -61,14 +150,23 @@
 					</h2>
 					</div>
 				</div>
-				
-			</div>
-			<div class="row">
 				<div class="col-sm-6 p-1">
 					<a href="kos"><img class="img-fluid" src="img/kos.jpg" alt=""></a>
 					<div class="index-item-text-wrapper">
 					<h2 class="index-item-title">
 						<span class="index-item-title-text">TUI - KOS, THE ISLAND OF HEALING</span>
+					</h2>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row">
+			
+				<div class="col-sm-6 p-1">
+					<a href="gocuba"><img class="img-fluid" src="img/gocuba.jpg" alt=""></a>
+					<div class="index-item-text-wrapper">
+					<h2 class="index-item-title">
+						<span class="index-item-title-text">GO CUBA</span>
 					</h2>
 					</div>
 				</div>

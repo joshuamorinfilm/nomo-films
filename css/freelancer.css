@@ -879,6 +879,24 @@ ul.lowersocial {
 		padding-left:24px;
 	}
 
+    .splash {
+      	font-size: 80px;
+        text-align: center;
+        font-family: Grto,sans-serif !important;
+    }
+    .fade-out {
+      animation: fadeOut ease 5s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
 	/* Play button */
  	.bannervid:hover .play {
 	display:block;
@@ -919,6 +937,4 @@ ul.lowersocial {
 	iframe {
 		border: 0px;
 	}
-/* 	.vi-lazyload-img {
-		opacity: 0;
-	}*/
+

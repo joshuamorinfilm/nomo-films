@@ -888,6 +888,18 @@ ul.lowersocial {
       animation: fadeOut ease 5s;
       animation-fill-mode: forwards;
     }
+   .translate-middle {
+    transform: translate(-50%,-50%)!important;
+}
+.start-50 {
+    left: 50%!important;
+}
+.top-50 {
+    top: 50%!important;
+}
+.position-absolute {
+    position: absolute!important;
+}
 
     @keyframes fadeOut {
       0% {

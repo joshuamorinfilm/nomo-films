@@ -331,7 +331,7 @@
 		
 		iframes.forEach(function(iframe) {
 			var player = new Vimeo.Player(iframe);
-			player.on('loaded', function() {
+			player.on('play', function() {
 			  	vidLoads++;
 				showMain();
 			});

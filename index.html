@@ -311,7 +311,7 @@
 
 	<script>
 		var vidLoads = 0;
-		$('.vi-lazyload-img').fadeTo(7000,0); //fade out images behind video
+		$('.vi-lazyload-img').fadeTo(1500,0); //fade out images behind video
 		
 		function showMain (){
 			if (vidLoads == 11) { //One more than there is to wait for timeout
@@ -320,7 +320,7 @@
 		}
 		
 		$(function () {
-		    var duration = 2000; 
+		    var duration = 2000;
 		    setTimeout(function () {
 		    	vidLoads++;
 		    	showMain();}, duration);

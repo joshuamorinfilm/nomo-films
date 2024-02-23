@@ -198,7 +198,9 @@ div.imagetiles img {
 		line-height:.8em
 	}
 	.bannervid { }
-		
+	.splash {
+      	font-size: 50px !important;
+      }
 	.logos {
 		display:none;
 	}

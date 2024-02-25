@@ -812,9 +812,10 @@ ul.lowersocial {
 		h2.dropdown button {
       	font-size: 60px !important;
         font-family: Grto,sans-serif !important;
-
 		}
-		
+        .play img {
+   	         width: 20px !important;
+   	       }
       }
 
       @media (min-width: 992px) {
@@ -934,9 +935,9 @@ ul.lowersocial {
    	width: 40px;
 	text-align:center;
 	opacity: 0.5;
-    transition: opacity .55s ease-in;
-    -moz-transition: opacity .55s ease-in;
-    -webkit-transition: opacity .55s ease-in;
+    transition: opacity .75s ease-in;
+    -moz-transition: opacity .75s ease-in;
+    -webkit-transition: opacity .75s ease-in;
 	}
 	.videotitle {
 	color: white;

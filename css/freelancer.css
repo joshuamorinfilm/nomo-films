@@ -813,6 +813,7 @@ ul.lowersocial {
       	font-size: 60px !important;
         font-family: Grto,sans-serif !important;
 		}
+		.play { margin:-10px auto !important; }
         .play img {
    	         width: 20px !important;
    	       }

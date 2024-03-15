@@ -40,7 +40,7 @@
 	  </head>
 
 	  <body id="page-top">
-	  
+	  <div id="header"></div>
 	  	<section>
 			<div class="vi-lazyload" data-id="494872840" data-thumb=""></div>
 		<div class="container">
@@ -120,6 +120,11 @@
 		
 		<!-- Vimeo lazy loader -->
 		<script src="../js/vi-lazyload.js"></script>
+		<script>
+			$(function(){
+			$("#header").load("../includes/header.html");
+			});
+		</script>
 	  </body>
 
 	</html>

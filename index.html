@@ -56,6 +56,9 @@
 	<script>
 		$('.main-body').hide();
 	</script>
+	<div id="header"></div>
+	
+<!--
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 			<button class="navbar-toggler navbar-toggler-right border-0 " type="button" onclick="openNav()">
 			<span class="navbar-toggler-icon"></span>
@@ -156,7 +159,7 @@
 				</div>
 		    	</div>
 		  		</nav>
-					
+					 -->
 			<div class="bannervid">
 				<img class="vi-lazyload-img" src="img/910496258.jpg" alt="" />
 				<iframe src="https://player.vimeo.com/video/910496258?background=1&quality=1080p"	 frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -308,7 +311,11 @@
 
 		<!-- Custom scripts for this template -->
 		<script src="js/freelancer.js"></script>
-
+		<script>
+			$(function(){
+			$("#header").load("../../includes/header.html");
+			});
+		</script>
 	<script>
 		var vidLoads = 0;
 		$('.vi-lazyload-img').fadeTo(1500,0); //fade out images behind video

@@ -172,9 +172,11 @@
 		</script>
 	<script>
 		var vidLoads = 0;
-		$('.vi-lazyload-img').fadeTo(1900,0); //fade out images behind video
 		
 		function showMain () {
+			if (vidLoads == 11) { //If vids aren't loaded show photos
+				$('.vi-lazyload-img').fadeTo(1900,0); //fade out images behind video
+			}
 			$('.spinner'). fadeOut("fast", function(){  $('.main-body').fadeIn("slow"); });
 		}
 		
